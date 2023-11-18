@@ -1,0 +1,9 @@
+
+[
+    {
+        "name": "celeste_chapter_select",
+        "location_size": 18,
+        "location_border_thickness": 4,
+        "img": "images/maps/celeste-chapter-select.png"
+    }
+]

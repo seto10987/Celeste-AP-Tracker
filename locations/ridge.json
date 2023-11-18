@@ -1,0 +1,545 @@
+[
+    {
+        "name": "Ridge",
+        "chest_unopened_img": "images/items/berry.png",
+        "chest_opened_img": "images/items/berry2.png",
+        "children": [
+            {
+                "name": "Ridge A-Side - Start",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 479,
+                        "y": 173
+                    }
+                ],
+                "visibility_rules": 
+                [
+                ],
+                "access_rules": 
+                [
+                    "$A4"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry 1",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 2",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 3",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 4",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 5",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 6",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 7",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 8",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cassette",
+                        "chest_unopened_img": "images/items/cassette.png",
+                        "chest_opened_img": "images/items/cassette2.png",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ridge A-Side - Shrine",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 513,
+                        "y": 173
+                    }
+                ],
+                "visibility_rules": 
+                [
+                ],
+                "access_rules": 
+                [
+                    "$A4"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry 9",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 10",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 11",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 12",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 13",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 14",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 15",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 16",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 17",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crystal Heart",
+                        "chest_unopened_img": "images/items/red_heart.png",
+                        "chest_opened_img": "images/items/red_heart2.png",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ridge A-Side - Old Trail",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 479,
+                        "y": 206
+                    }
+                ],
+                "visibility_rules": 
+                [
+                ],
+                "access_rules": 
+                [
+                    "$A4"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry 18",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 19",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 20",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 21",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 22",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 23",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 24",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    } 
+                ]
+            },
+            {
+                "name": "Ridge A-Side - Cliff Face",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 513,
+                        "y": 206
+                    }
+                ],
+                "visibility_rules": 
+                [
+                ],
+                "access_rules": 
+                [
+                    "$A4"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry 25",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 26",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 27",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 28",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 29",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Level Complete",
+                        "chest_unopened_img": "images/items/complete.png",
+                        "chest_opened_img": "images/items/complete2.png",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    } 
+                ]
+            },
+            {
+                "name": "Ridge B-Side",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 496,
+                        "y": 279
+                    }
+                ],
+                "visibility_rules": 
+                [
+                ],
+                "access_rules": 
+                [
+                    "cassette4"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Crystal Heart",
+                        "chest_unopened_img": "images/items/blue_heart.png",
+                        "chest_opened_img": "images/items/blue_heart2.png",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Level Complete",
+                        "chest_unopened_img": "images/items/complete.png",
+                        "chest_opened_img": "images/items/complete2.png",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ridge C-Side",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 496,
+                        "y": 319
+                    }
+                ],
+                "visibility_rules": 
+                [
+                ],
+                "access_rules": 
+                [
+                    "$C4"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Crystal Heart",
+                        "chest_unopened_img": "images/items/yellow_heart.png",
+                        "chest_opened_img": "images/items/yellow_heart2.png",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Level Complete",
+                        "chest_unopened_img": "images/items/complete.png",
+                        "chest_opened_img": "images/items/complete2.png",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }             
+        ]
+    }
+]

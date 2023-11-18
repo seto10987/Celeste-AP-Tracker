@@ -1,0 +1,38 @@
+{
+    "setting_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "item_size": "30, 30",
+                        "h_alignment": "right",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "rows": [                        
+                            [
+                                "berryreq", "","goal"
+                            ],
+                            [
+                                "heartreq", "",""
+                            ],
+                            [
+                                "cassettesreq", "",""
+                            ],
+                            [
+                                "compreq", "",""
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_size": 30,
+                        "rows": [
+                            
+                            [
+                                "compa1", "compa2", "compa3", "compa4", "compa5", "compa6", "compa7", "compa8", "compa9", "", "", "berry"  
+                            ],
+                            [
+                                "hearta1", "hearta2", "hearta3", "hearta4", "hearta5", "hearta6", "hearta7", "hearta8", "hearta9", "", "", "heart"                                     
+                            ],
+                            [
+                                "compb1", "compb2", "compb3", "compb4", "compb5", "compb6", "compb7", "compb8", "", "", "", "cassette"
+                            ],
+                            [
+                                "heartb1", "heartb2", "heartb3", "heartb4", "heartb5", "heartb6", "heartb7", "heartb8", "", "", "", "comp"
+                            ],
+                            [
+                                "compc1", "compc2", "compc3", "compc4", "compc5", "compc6", "compc7", "compc8"
+                            ],
+                            [
+                                "heartc1", "heartc2", "heartc3", "heartc4", "heartc5", "heartc6", "heartc7", "heartc8"
+                            ],
+                            [
+                                "cassette1", "cassette2", "cassette3", "cassette4", "cassette5", "cassette6", "cassette7", "cassette8"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

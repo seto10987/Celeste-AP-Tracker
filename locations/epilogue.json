@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Epilogue",
+        "children": [
+            {
+                "name": "Epilogue",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 954,
+                        "y": 173
+                    }
+                ],
+                "visibility_rules": 
+                [
+                ],
+                "access_rules": 
+                [
+                    "$A8"
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Level Complete",
+                        "chest_unopened_img": "images/items/complete.png",
+                        "chest_opened_img": "images/items/complete2.png",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }            
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+﻿{
+    "name": "Celeste PopTracker",
+    "game_name": "Celeste",
+    "package_version": "0.5.0.0",
+    "package_uid": "celeste",
+    "platform": "steam",
+    "author": "Seto10987",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap"
+            ]
+        }
+    }
+}
