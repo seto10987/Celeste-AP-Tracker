@@ -19,7 +19,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$A8, $CORE"
+                    "$A8, $CORE, $HEART|heartttl|4", "$A8, core, $HEART|heartttl|4, $GOAL"
                 ],
                 "sections": 
                 [
@@ -51,7 +51,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$A8, $CORE"
+                    "$A8, $CORE, $HEART|heartttl|4", "$A8, core, $HEART|heartttl|4, $GOAL"
                 ],
                 "sections": 
                 [
@@ -105,7 +105,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$A8, $CORE"
+                    "$A8, $CORE, $HEART|heartttl|4", "$A8, core, $HEART|heartttl|4, $GOAL"
                 ],
                 "sections": 
                 [
@@ -176,7 +176,7 @@
                 ],
                 "access_rules": 
                 [
-                    "cassette8"
+                    "cassette8, $HEART|heartttl|15"
                 ],
                 "sections": 
                 [
@@ -223,7 +223,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$C8"
+                    "$C8, $HEART|heartttl|23"
                 ],
                 "sections": 
                 [

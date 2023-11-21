@@ -13,21 +13,31 @@
                         "type": "itemgrid",
                         "item_margin": "2, 2",
                         "item_size": "30, 30",
+                        "background": "#04000a",
                         "h_alignment": "right",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "rows": [                        
+                        "rows": [
                             [
-                                "berryreq", "","goal"
+                                ""
                             ],
                             [
-                                "heartreq", "",""
+                                "", "goallevel", "goal", ""
+                            ],                        
+                            [
+                                "berrytotal", "berryttl", "berryreq", "berriesrequired"
                             ],
                             [
-                                "cassettesreq", "",""
+                                "hearttotal", "heartttl", "heartreq", "heartsrequired"
                             ],
                             [
-                                "compreq", "",""
+                                "cassettetotal", "cassettesttl", "cassettesreq", "cassettesrequired"
+                            ],
+                            [
+                                "comptotal", "compttl", "compreq", "comprequired"
+                            ],
+                            [
+                                "", "", "", ""
                             ]
                         ]
                     }

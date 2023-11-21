@@ -10,35 +10,35 @@ end
  
 function C1()
     return
-    has ("compa1") and has ("compb1")
+    has ("hearta1") and has ("heartb1")
 end
 function C2()
     return
-    has ("compa2") and has ("compb2")
+    has ("hearta2") and has ("heartb2")
 end
 function C3()
     return
-    has ("compa3") and has ("compb3")
+    has ("hearta3") and has ("heartb3")
 end
 function C4()
     return
-    has ("compa4") and has ("compb4")
+    has ("hearta4") and has ("heartb4")
 end
 function C5()
     return
-    has ("compa5") and has ("compb5")
+    has ("hearta5") and has ("heartb5")
 end
 function C6()
     return
-    has ("compa6") and has ("compb6")
+    has ("hearta6") and has ("heartb6")
 end
 function C7()
     return
-    has ("compa7") and has ("compb7")
+    has ("hearta7") and has ("heartb7")
 end
 function C8()
     return
-    has ("compa8") and has ("compb8")
+    has ("hearta8") and has ("heartb8")
 end
 function A2()
     return
@@ -72,10 +72,6 @@ function A9()
     return
     has ("compa8") or has ("compb8") or has ("compc8")
 end
-function GOAL()
-    return
-    has ("berryreq") and has ("heartreq") and has ("compreq") and has ("cassettesreq")
-end
 function SUMMIT()
     return
     has ("core") or has ("farewell")
@@ -89,6 +85,45 @@ function FAREWELL()
     has ("summit") or has ("core")
 end
 
-function beforeGoal(level)
-    return victoryCondition > toNumber(level)
-  end
+function checkRequirements(reference, check_count)
+    local reqCount = Tracker:ProviderCountForCode(reference)
+    local count = Tracker:ProviderCountForCode(check_count)
+
+    if count >= reqCount then
+        return 1
+    else
+        return 0
+    end
+end
+function BERRYREQ()
+    return checkRequirements("berryreq", "berryttl")
+end
+function HEARTREQ()
+    return checkRequirements("heartreq", "heartttl")
+end
+function CASSETTESREQ()
+    return checkRequirements("cassettesreq", "cassettesttl")
+end
+function COMPREQ()
+    return checkRequirements("compreq", "compttl")
+end
+function GOAL()
+    return
+    has ("$BERRYREQ") and has ("$HEARTREQ") and has ("$COMPREQ") and has ("$CASSETTESREQ")
+end
+function has(item, amount)
+    local count = Tracker:ProviderCountForCode(item)
+    if not amount then
+        return count > 0
+    else
+        amount = tonumber(amount)
+        return count >= amount
+    end
+end
+function HEART(gemheart, count)
+    if Tracker:FindObjectForCode(gemheart).AcquiredCount >= tonumber(count) then
+        return true
+    else
+        return false
+    end
+end

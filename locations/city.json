@@ -3,6 +3,12 @@
         "name": "City",
         "chest_unopened_img": "images/items/berry.png",
         "chest_opened_img": "images/items/berry2.png",
+        "visibility_rules": 
+        [
+        ],
+        "access_rules": 
+        [
+        ],
         "children": [
             {
                 "name": "City A-Side - Start",

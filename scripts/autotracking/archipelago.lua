@@ -14,6 +14,7 @@ GLOBAL_ITEMS = {}
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
+        print("1")
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
@@ -58,9 +59,54 @@ function onClear(slot_data)
             end
         end
     end
-
+    print(dump_table(SLOT_DATA))
+    -- Set goal
+    --print(Tracker.FindObjectForCode("berriesreq").AcquiredCount)
+    
+    if slot_data["berries_required"] ~= 0 then
+        Tracker:FindObjectForCode("berryreq").AcquiredCount = tonumber(slot_data["berries_required"])
+    end
+    if slot_data["hearts_required"] ~= 0 then
+        Tracker:FindObjectForCode("heartreq").AcquiredCount = tonumber(slot_data["hearts_required"])
+    end
+    if slot_data["berries_required"] ~= 0 then
+        Tracker:FindObjectForCode("cassettesreq").AcquiredCount = tonumber(slot_data["cassettes_required"])
+    end
+    if slot_data["levels_required"] ~= 0 then
+        Tracker:FindObjectForCode("compreq").AcquiredCount = tonumber(slot_data["levels_required"])
+    end
+    if slot_data["victory_condition"] == 0 then
+        Tracker:FindObjectForCode("goal").CurrentStage = 0
+    end
+    if slot_data["victory_condition"] == 1 then
+        Tracker:FindObjectForCode("goal").CurrentStage = 1
+    end
+    if slot_data["victory_condition"] == 2 then
+        Tracker:FindObjectForCode("goal").CurrentStage = 2
+    end
+    if slot_data["victory_condition"] then       
+        if slot_data["hearts_required"] and not slot_data["hearts_required"] == 0 then
+            Tracker:FindObjectForCode("goal").CurrentStage = 1
+            Tracker:FindObjectForCode("hearts_required").AcquiredCount = tonumber(slot_data["hearts_required"])
+        end
+        if slot_data["gemhearts"] and not slot_data["gemhearts"] == 0 then
+            Tracker:FindObjectForCode("heartttl").CurrentStage = 1
+            Tracker:FindObjectForCode("gemhearts").AcquiredCount = tonumber(slot_data["gemhearts"])
+        end
+        if slot_data["berries_required"] and not slot_data["berries_required"] == 0 then
+            Tracker:FindObjectForCode("goal").CurrentStage = 2
+            Tracker:FindObjectForCode("berries_required").AcquiredCount = tonumber(slot_data["berries_required"])
+        end
+        if slot_data["cassettes_required"] and not slot_data["cassettes_required"] == 0 then
+            Tracker:FindObjectForCode("goal").CurrentStage = 3
+            Tracker:FindObjectForCode("cassettes_required").AcquiredCount = tonumber(slot_data["cassettes_required"])
+        end
+        if slot_data["levels_required"] and not slot_data["levels_required"] == 0 then
+            Tracker:FindObjectForCode("goal").CurrentStage = 4
+            Tracker:FindObjectForCode("levels_required").AcquiredCount = tonumber(slot_data["levels_required"])
+        end
+    end
 end
-
 -- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -73,6 +119,178 @@ function onItem(index, item_id, item_name, player_number)
         return
     end
     local is_local = player_number == Archipelago.PlayerNumber
+
+    if  item_id == 8061000 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8062000 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8063000 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8064000 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8065000 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8066000 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8067000 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8069000 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8061100 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8062100 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8063100 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8064100 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8065100 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8066100 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8067100 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8069100 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8061200 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8062200 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8063200 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8064200 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8065200 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8066200 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8067200 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+    if  item_id == 8069200 then
+        Tracker:FindObjectForCode("heartttl").AcquiredCount = Tracker:FindObjectForCode("heartttl").AcquiredCount + 1
+    end
+
+    if  item_id == 8041000 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8042000 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8043000 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8044000 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8045000 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8046000 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8047000 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8049000 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8041100 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8042100 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8043100 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8044100 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8045100 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8046100 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8047100 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8049100 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8041200 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8042200 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8043200 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8044200 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8045200 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8046200 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8047200 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+    if  item_id == 8049200 then
+        Tracker:FindObjectForCode("compttl").AcquiredCount = Tracker:FindObjectForCode("compttl").AcquiredCount + 1
+    end
+
+    if  item_id == 8021000 then
+        Tracker:FindObjectForCode("cassettesttl").AcquiredCount = Tracker:FindObjectForCode("cassettesttl").AcquiredCount + 1
+    end
+    if  item_id == 8022000 then
+        Tracker:FindObjectForCode("cassettesttl").AcquiredCount = Tracker:FindObjectForCode("cassettesttl").AcquiredCount + 1
+    end
+    if  item_id == 8023000 then
+        Tracker:FindObjectForCode("cassettesttl").AcquiredCount = Tracker:FindObjectForCode("cassettesttl").AcquiredCount + 1
+    end
+    if  item_id == 8024000 then
+        Tracker:FindObjectForCode("cassettesttl").AcquiredCount = Tracker:FindObjectForCode("cassettesttl").AcquiredCount + 1
+    end
+    if  item_id == 8025000 then
+        Tracker:FindObjectForCode("cassettesttl").AcquiredCount = Tracker:FindObjectForCode("cassettesttl").AcquiredCount + 1
+    end
+    if  item_id == 8026000 then
+        Tracker:FindObjectForCode("cassettesttl").AcquiredCount = Tracker:FindObjectForCode("cassettesttl").AcquiredCount + 1
+    end
+    if  item_id == 8027000 then
+        Tracker:FindObjectForCode("cassettesttl").AcquiredCount = Tracker:FindObjectForCode("cassettesttl").AcquiredCount + 1
+    end
+    if  item_id == 8029000 then
+        Tracker:FindObjectForCode("cassettesttl").AcquiredCount = Tracker:FindObjectForCode("cassettesttl").AcquiredCount + 1
+    end
+
     CUR_INDEX = index;
     local v = ITEM_MAPPING[item_id]
     if not v then

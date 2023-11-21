@@ -3,19 +3,22 @@
         "name": "City A-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/red_heart.png",
-        "codes": "hearta1"
+        "codes": "hearta1",
+        "secondary codes": "heartttl"
     },    
     {
         "name": "Old Site A-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/red_heart.png",
-        "codes": "hearta2"
+        "codes": "hearta2",
+        "secondary codes": "heartttl"
     },    
     {
         "name": "Hotel A-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/red_heart.png",
-        "codes": "hearta3"
+        "codes": "hearta3",
+        "secondary codes": "heartttl"
     },    
     {
         "name": "Ridge A-Side Crystal Heart",
@@ -201,19 +204,19 @@
         "initial_quantity": 0,
         "overlay_background": "#000000",
         "overlay_font_size": 12,
-        "codes": "berry"
+        "codes": "berryttl"
     },
     {
         "name": "Crystal Heart Total",
         "type": "consumable",
         "img": "images/items/red_heart.png",
-        "max_quantity": 25,
+        "max_quantity": 24,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
         "overlay_font_size": 12,
-        "codes": "heart"
+        "codes": "heartttl"
     },
     {
         "name": "Cassette Total",
@@ -225,19 +228,19 @@
         "initial_quantity": 0,
         "overlay_background": "#000000",
         "overlay_font_size": 12,
-        "codes": "cassette"
+        "codes": "cassettesttl"
     },
     {
         "name": "Level Completion Total",
         "type": "consumable",
         "img": "images/items/complete.png",
-        "max_quantity": 25,
+        "max_quantity": 24,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
         "overlay_font_size": 12,
-        "codes": "comp"
+        "codes": "compttl"
     },
     {
         "name": "City A-Side Level Completion",
@@ -430,7 +433,7 @@
         "name": "Hearts Required",
         "type": "consumable",
         "img": "images/items/red_heart.png",
-        "max_quantity": 25,
+        "max_quantity": 24,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
@@ -454,12 +457,84 @@
         "name": "Completes Required",
         "type": "consumable",
         "img": "images/items/complete.png",
-        "max_quantity": 25,
+        "max_quantity": 27,
         "increment": 1,
         "decrement": 1,
         "initial_quantity": 0,
         "overlay_background": "#000000",
-        "overlay_font_size": 12,
+        "overlay_font_size": 0,
         "codes": "compreq"
+    },    
+    {
+        "name": "Goal Level",
+        "type": "toggle",
+        "img": "images/items/goal_level.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "goallevel"
+    },    
+    {
+        "name": "Strawberries Required",
+        "type": "toggle",
+        "img": "images/items/berries_required.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "berriesrequired"
+    },    
+    {
+        "name": "Hearts Required",
+        "type": "toggle",
+        "img": "images/items/hearts_required.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "heartsrequired"
+    },    
+    {
+        "name": "Cassettes Required",
+        "type": "toggle",
+        "img": "images/items/cassettes_required.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "cassettesrequired"
+    },    
+    {
+        "name": "Clears Required",
+        "type": "toggle",
+        "img": "images/items/comp_required.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "comprequired"
+    },    
+    {
+        "name": "Clear Total",
+        "type": "toggle",
+        "img": "images/items/comp_total.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "comptotal"
+    },    
+    {
+        "name": "Heart Total",
+        "type": "toggle",
+        "img": "images/items/heart_total.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "hearttotal"
+    },    
+    {
+        "name": "Berry Total",
+        "type": "toggle",
+        "img": "images/items/berry_total.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "berrytotal"
+    },    
+    {
+        "name": "Cassette Total",
+        "type": "toggle",
+        "img": "images/items/cassette_total.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "cassettetotal"
     }
 ]

@@ -19,7 +19,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$A7, $SUMMIT"
+                    "$A7, $SUMMIT", "$A7, summit, $GOAL"
                 ],
                 "sections": 
                 [
@@ -84,7 +84,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$A7, $SUMMIT"
+                    "$A7, $SUMMIT", "$A7, summit, $GOAL"
                 ],
                 "sections": 
                 [
@@ -171,7 +171,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$A7, $SUMMIT"
+                    "$A7, $SUMMIT", "$A7, summit, $GOAL"
                 ],
                 "sections": 
                 [
@@ -258,7 +258,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$A7, $SUMMIT"
+                    "$A7, $SUMMIT", "$A7, summit, $GOAL"
                 ],
                 "sections": 
                 [
@@ -380,7 +380,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$A7, $SUMMIT"
+                    "$A7, $SUMMIT", "$A7, summit, $GOAL"
                 ],
                 "sections": 
                 [
@@ -489,7 +489,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$A7, $SUMMIT"
+                    "$A7, $SUMMIT", "$A7, summit, $GOAL"
                 ],
                 "sections": 
                 [
@@ -598,7 +598,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$A7, $SUMMIT"
+                    "$A7, $SUMMIT", "$A7, summit, $GOAL"
                 ],
                 "sections": 
                 [
