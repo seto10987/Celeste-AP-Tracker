@@ -96,19 +96,19 @@ function onItem(index, item_id, item_name, player_number)
 
     CUR_INDEX = index;
     local v = ITEM_MAPPING[item_id]
-    if not v then
+    for _, innertable in pairs(v) do
+    if not innertable then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: could not find item mapping for id %s", item_id))
         end
         return
     end
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onItem: code: %s, type %s", v[1], v[2]))
+        print(string.format("onItem: code: %s, type %s", innertable[1], innertable[2]))
     end
-    if not v[1] then
+    if not innertable[1] then
         return
     end
-    for _, innertable in pairs(v) do
         local obj = Tracker:FindObjectForCode(innertable[1])
         if obj then
             if innertable[2] == "toggle" then
