@@ -38,24 +38,26 @@ function onClear(slot_data)
     end
     -- reset items
     for _, v in pairs(ITEM_MAPPING) do
-        if v[1] and v[2] then
-            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: clearing item %s of type %s", v[1], v[2]))
-            end
-            local obj = Tracker:FindObjectForCode(v[1])
-            if obj then
-                if v[2] == "toggle" then
-                    obj.Active = false
-                elseif v[2] == "progressive" then
-                    obj.CurrentStage = 0
-                    obj.Active = false
-                elseif v[2] == "consumable" then
-                    obj.AcquiredCount = 0
-                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                    print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))
+        for _, innertable in pairs(v) do
+            if innertable[1] and innertable[2] then
+                if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                    print(string.format("onClear: clearing item %s of type %s", innertable[1], innertable[2]))
                 end
-            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: could not find object for code %s", v[1]))
+                local obj = Tracker:FindObjectForCode(innertable[1])
+                if obj then
+                    if innertable[2] == "toggle" then
+                        obj.Active = false
+                    elseif innertable[2] == "progressive" then
+                        obj.CurrentStage = 0
+                        obj.Active = false
+                    elseif innertable[2] == "consumable" then
+                        obj.AcquiredCount = 0
+                    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print(string.format("onClear: unknown item type %s for code %s", innertable[2], innertable[1]))
+                    end
+                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                    print(string.format("onClear: could not find object for code %s", innertable[1]))
+                end
             end
         end
     end
@@ -305,41 +307,43 @@ function onItem(index, item_id, item_name, player_number)
     if not v[1] then
         return
     end
-    local obj = Tracker:FindObjectForCode(v[1])
-    if obj then
-        if v[2] == "toggle" then
-            obj.Active = true
-        elseif v[2] == "progressive" then
-            if obj.Active then
-                obj.CurrentStage = obj.CurrentStage + 1
-            else
+    for _, innertable in pairs(v) do
+        local obj = Tracker:FindObjectForCode(innertable[1])
+        if obj then
+            if innertable[2] == "toggle" then
                 obj.Active = true
+            elseif innertable[2] == "progressive" then
+                if obj.Active then
+                    obj.CurrentStage = obj.CurrentStage + 1
+                else
+                    obj.Active = true
+                end
+            elseif innertable[2] == "consumable" then
+                obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("onItem: unknown item type %s for code %s", innertable[2], innertable[1]))
             end
-        elseif v[2] == "consumable" then
-            obj.AcquiredCount = obj.AcquiredCount + obj.Increment
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
+            print(string.format("onItem: could not find object for code %s", innertable[1]))
         end
-    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onItem: could not find object for code %s", v[1]))
-    end
-    -- track local items via snes interface
-    if is_local then
-        if LOCAL_ITEMS[v[1]] then
-            LOCAL_ITEMS[v[1]] = LOCAL_ITEMS[v[1]] + 1
+        -- track local items via snes interface
+        if is_local then
+            if LOCAL_ITEMS[innertable[1]] then
+                LOCAL_ITEMS[innertable[1]] = LOCAL_ITEMS[innertable[1]] + 1
+            else
+                LOCAL_ITEMS[innertable[1]] = 1
+            end
         else
-            LOCAL_ITEMS[v[1]] = 1
+            if GLOBAL_ITEMS[innertable[1]] then
+                GLOBAL_ITEMS[innertable[1]] = GLOBAL_ITEMS[innertable[1]] + 1
+            else
+                GLOBAL_ITEMS[innertable[1]] = 1
+            end
         end
-    else
-        if GLOBAL_ITEMS[v[1]] then
-            GLOBAL_ITEMS[v[1]] = GLOBAL_ITEMS[v[1]] + 1
-        else
-            GLOBAL_ITEMS[v[1]] = 1
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
+            print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
         end
-    end
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
-        print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
 end
 
