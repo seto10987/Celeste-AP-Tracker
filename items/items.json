@@ -3,22 +3,19 @@
         "name": "City A-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/red_heart.png",
-        "codes": "hearta1",
-        "secondary codes": "heartttl"
+        "codes": "hearta1"
     },    
     {
         "name": "Old Site A-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/red_heart.png",
-        "codes": "hearta2",
-        "secondary codes": "heartttl"
+        "codes": "hearta2"
     },    
     {
         "name": "Hotel A-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/red_heart.png",
-        "codes": "hearta3",
-        "secondary codes": "heartttl"
+        "codes": "hearta3"
     },    
     {
         "name": "Ridge A-Side Crystal Heart",
@@ -48,7 +45,7 @@
         "name": "Core A-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/red_heart.png",
-        "codes": "hearta8"
+        "codes": "hearta9"
     },    
     {
         "name": "City B-Side Crystal Heart",
@@ -96,7 +93,7 @@
         "name": "Core B-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/blue_heart.png",
-        "codes": "heartb8"
+        "codes": "heartb9"
     },    
     {
         "name": "City C-Side Crystal Heart",
@@ -144,7 +141,7 @@
         "name": "Core C-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/yellow_heart.png",
-        "codes": "heartc8"
+        "codes": "heartc9"
     },    
     {
         "name": "City Cassette",
@@ -192,7 +189,7 @@
         "name": "Core Cassette",
         "type": "toggle",
         "img": "images/items/cassette.png",
-        "codes": "cassette8"
+        "codes": "cassette9"
     },
     {
         "name": "Strawberry Total",
@@ -285,16 +282,22 @@
         "codes": "compa7"
     },    
     {
+        "name": "Epilogue Level Completion",
+        "type": "toggle",
+        "img": "images/items/complete.png",
+        "codes": "compep"
+    },    
+    {
         "name": "Core A-Side Level Completion",
         "type": "toggle",
         "img": "images/items/complete.png",
-        "codes": "compa8"
+        "codes": "compa9"
     },    
     {
         "name": "Farewell A-Side Level Completion",
         "type": "toggle",
         "img": "images/items/complete.png",
-        "codes": "compa9"
+        "codes": "compa10"
     },
     {
         "name": "City B-Side Level Completion",
@@ -342,7 +345,7 @@
         "name": "Core B-Side Level Completion",
         "type": "toggle",
         "img": "images/items/complete.png",
-        "codes": "compb8"
+        "codes": "compb9"
     },    
     {
         "name": "City C-Side Level Completion",
@@ -390,7 +393,7 @@
         "name": "Core C-Side Level Completion",
         "type": "toggle",
         "img": "images/items/complete.png",
-        "codes": "compc8"
+        "codes": "compc9"
     },
     {
         "name": "Goal",
@@ -536,5 +539,85 @@
         "initial_active_state": true,
         "allow_disabled": false,
         "codes": "cassettetotal"
+    },    
+    {
+        "name": "Chapter 1",
+        "type": "toggle",
+        "img": "images/items/ch1.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch1"
+    },    
+    {
+        "name": "Chapter 2",
+        "type": "toggle",
+        "img": "images/items/ch2.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch2"
+    },    
+    {
+        "name": "Chapter 3",
+        "type": "toggle",
+        "img": "images/items/ch3.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch3"
+    },    
+    {
+        "name": "Chapter 4",
+        "type": "toggle",
+        "img": "images/items/ch4.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch4"
+    },    
+    {
+        "name": "Chapter 5",
+        "type": "toggle",
+        "img": "images/items/ch5.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch5"
+    },    
+    {
+        "name": "Chapter 6",
+        "type": "toggle",
+        "img": "images/items/ch6.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch6"
+    },    
+    {
+        "name": "Chapter 7",
+        "type": "toggle",
+        "img": "images/items/ch7.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch7"
+    },    
+    {
+        "name": "Epilogue",
+        "type": "toggle",
+        "img": "images/items/ep.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ep"
+    },    
+    {
+        "name": "Chapter 8",
+        "type": "toggle",
+        "img": "images/items/ch9.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch9"
+    },    
+    {
+        "name": "Chapter 9",
+        "type": "toggle",
+        "img": "images/items/ch10.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch10"
     }
 ]

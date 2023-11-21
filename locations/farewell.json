@@ -13,12 +13,9 @@
                     }
                 ],
                 "visibility_rules": 
-                [
-                ],
+                [""],
                 "access_rules": 
-                [
-                    "$A9, $FAREWELL", "$A9, farewell, $GOAL"
-                ],
+                ["$A10, $FAREWELL", "$A10, farewell, $GOAL"],
                 "sections": 
                 [
                     {
@@ -27,11 +24,9 @@
                         "chest_opened_img": "images/items/complete2.png",
                         "clear_as_group": true,
                         "visibility_rules": 
-                        [
-                        ],
+                        [""],
                         "access_rules": 
-                        [
-                        ],
+                        [""],
                         "item_count": 1
                     }
                 ]

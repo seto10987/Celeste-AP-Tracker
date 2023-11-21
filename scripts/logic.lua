@@ -36,9 +36,9 @@ function C7()
     return
     has ("hearta7") and has ("heartb7")
 end
-function C8()
+function C9()
     return
-    has ("hearta8") and has ("heartb8")
+    has ("hearta9") and has ("heartb9")
 end
 function A2()
     return
@@ -64,13 +64,9 @@ function A7()
     return
     has ("compa6") or has ("compb6") or has ("compc6")
 end
-function A8()
+function A10()
     return
-    has ("compa7") or has ("compb7") or has ("compc7")
-end
-function A9()
-    return
-    has ("compa8") or has ("compb8") or has ("compc8")
+    has ("compa9") or has ("compb9") or has ("compc9")
 end
 function SUMMIT()
     return

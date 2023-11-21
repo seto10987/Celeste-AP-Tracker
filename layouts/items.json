@@ -16,29 +16,32 @@
                         "background": "#04000a",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_size": 30,
+                        "item_size": 25,
                         "rows": [
                             
                             [
-                                "compa1", "compa2", "compa3", "compa4", "compa5", "compa6", "compa7", "compa8", "compa9"
+                                "ch1", "ch2", "ch3", "ch4", "ch5", "ch6", "ch7", "ep", "ch9", "ch10"
                             ],
                             [
-                                "hearta1", "hearta2", "hearta3", "hearta4", "hearta5", "hearta6", "hearta7", "hearta8"                             
+                                "compa1", "compa2", "compa3", "compa4", "compa5", "compa6", "compa7", "compep", "compa9", "compa10"
                             ],
                             [
-                                "compb1", "compb2", "compb3", "compb4", "compb5", "compb6", "compb7", "compb8"
+                                "hearta1", "hearta2", "hearta3", "hearta4", "hearta5", "hearta6", "hearta7", "", "hearta9"                             
                             ],
                             [
-                                "heartb1", "heartb2", "heartb3", "heartb4", "heartb5", "heartb6", "heartb7", "heartb8"
+                                "compb1", "compb2", "compb3", "compb4", "compb5", "compb6", "compb7", "", "compb9"
                             ],
                             [
-                                "compc1", "compc2", "compc3", "compc4", "compc5", "compc6", "compc7", "compc8"
+                                "heartb1", "heartb2", "heartb3", "heartb4", "heartb5", "heartb6", "heartb7", "", "heartb9"
                             ],
                             [
-                                "heartc1", "heartc2", "heartc3", "heartc4", "heartc5", "heartc6", "heartc7", "heartc8"
+                                "compc1", "compc2", "compc3", "compc4", "compc5", "compc6", "compc7", "", "compc9"
                             ],
                             [
-                                "cassette1", "cassette2", "cassette3", "cassette4", "cassette5", "cassette6", "cassette7", "cassette8"
+                                "heartc1", "heartc2", "heartc3", "heartc4", "heartc5", "heartc6", "heartc7", "", "heartc9"
+                            ],
+                            [
+                                "cassette1", "cassette2", "cassette3", "cassette4", "cassette5", "cassette6", "cassette7", "", "cassette9"
                             ]
                         ]
                     }

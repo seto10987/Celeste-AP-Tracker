@@ -143,19 +143,6 @@
                         [
                         ],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/red_heart.png",
-                        "chest_opened_img": "images/items/red_heart2.png",
-                        "clear_as_group": true,
-                        "visibility_rules": 
-                        [
-                        ],
-                        "access_rules": 
-                        [
-                        ],
-                        "item_count": 1
                     }
                 ]
             },
@@ -246,6 +233,19 @@
                     },
                     {
                         "name": "Strawberry 18",
+                        "clear_as_group": true,
+                        "visibility_rules": 
+                        [
+                        ],
+                        "access_rules": 
+                        [
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crystal Heart",
+                        "chest_unopened_img": "images/items/red_heart.png",
+                        "chest_opened_img": "images/items/red_heart2.png",
                         "clear_as_group": true,
                         "visibility_rules": 
                         [
