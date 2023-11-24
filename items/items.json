@@ -2,622 +2,349 @@
     {
         "name": "City A-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/red_heart.png",
+        "img": "images/items/items/blue_heart.png",
         "codes": "hearta1"
     },    
     {
         "name": "Old Site A-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/red_heart.png",
+        "img": "images/items/items/blue_heart.png",
         "codes": "hearta2"
     },    
     {
         "name": "Hotel A-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/red_heart.png",
+        "img": "images/items/items/blue_heart.png",
         "codes": "hearta3"
     },    
     {
         "name": "Ridge A-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/red_heart.png",
+        "img": "images/items/items/blue_heart.png",
         "codes": "hearta4"
     },    
     {
         "name": "Mirror Temple A-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/red_heart.png",
+        "img": "images/items/items/blue_heart.png",
         "codes": "hearta5"
     },    
     {
         "name": "Reflection A-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/red_heart.png",
+        "img": "images/items/items/blue_heart.png",
         "codes": "hearta6"
     },    
     {
         "name": "Summit A-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/red_heart.png",
+        "img": "images/items/items/blue_heart.png",
         "codes": "hearta7"
     },    
     {
         "name": "Core A-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/red_heart.png",
+        "img": "images/items/items/blue_heart.png",
         "codes": "hearta9"
     },    
     {
         "name": "City B-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/blue_heart.png",
+        "img": "images/items/items/red_heart.png",
         "codes": "heartb1"
     },    
     {
         "name": "Old Site B-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/blue_heart.png",
+        "img": "images/items/items/red_heart.png",
         "codes": "heartb2"
     },    
     {
         "name": "Hotel B-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/blue_heart.png",
+        "img": "images/items/items/red_heart.png",
         "codes": "heartb3"
     },    
     {
         "name": "Ridge B-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/blue_heart.png",
+        "img": "images/items/items/red_heart.png",
         "codes": "heartb4"
     },    
     {
         "name": "Mirror Temple B-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/blue_heart.png",
+        "img": "images/items/items/red_heart.png",
         "codes": "heartb5"
     },    
     {
         "name": "Reflection B-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/blue_heart.png",
+        "img": "images/items/items/red_heart.png",
         "codes": "heartb6"
     },    
     {
         "name": "Summit B-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/blue_heart.png",
+        "img": "images/items/items/red_heart.png",
         "codes": "heartb7"
     },    
     {
         "name": "Core B-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/blue_heart.png",
+        "img": "images/items/items/red_heart.png",
         "codes": "heartb9"
     },    
     {
         "name": "City C-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/yellow_heart.png",
+        "img": "images/items/items/yellow_heart.png",
         "codes": "heartc1"
     },    
     {
         "name": "Old Site C-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/yellow_heart.png",
+        "img": "images/items/items/yellow_heart.png",
         "codes": "heartc2"
     },    
     {
         "name": "Hotel C-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/yellow_heart.png",
+        "img": "images/items/items/yellow_heart.png",
         "codes": "heartc3"
     },    
     {
         "name": "Ridge C-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/yellow_heart.png",
+        "img": "images/items/items/yellow_heart.png",
         "codes": "heartc4"
     },    
     {
         "name": "Mirror Temple C-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/yellow_heart.png",
+        "img": "images/items/items/yellow_heart.png",
         "codes": "heartc5"
     },    
     {
         "name": "Reflection C-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/yellow_heart.png",
+        "img": "images/items/items/yellow_heart.png",
         "codes": "heartc6"
     },    
     {
         "name": "Summit C-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/yellow_heart.png",
+        "img": "images/items/items/yellow_heart.png",
         "codes": "heartc7"
     },    
     {
         "name": "Core C-Side Crystal Heart",
         "type": "toggle",
-        "img": "images/items/yellow_heart.png",
+        "img": "images/items/items/yellow_heart.png",
         "codes": "heartc9"
     },    
     {
         "name": "City Cassette",
         "type": "toggle",
-        "img": "images/items/cassette.png",
+        "img": "images/items/items/cassette.png",
         "codes": "cassette1"
     },    
     {
         "name": "Old Site Cassette",
         "type": "toggle",
-        "img": "images/items/cassette.png",
+        "img": "images/items/items/cassette.png",
         "codes": "cassette2"
     },    
     {
         "name": "Hotel Cassette",
         "type": "toggle",
-        "img": "images/items/cassette.png",
+        "img": "images/items/items/cassette.png",
         "codes": "cassette3"
     },    
     {
         "name": "Ridge Cassette",
         "type": "toggle",
-        "img": "images/items/cassette.png",
+        "img": "images/items/items/cassette.png",
         "codes": "cassette4"
     },    
     {
         "name": "Mirror Temple Cassette",
         "type": "toggle",
-        "img": "images/items/cassette.png",
+        "img": "images/items/items/cassette.png",
         "codes": "cassette5"
     },    
     {
         "name": "Reflection Cassette",
         "type": "toggle",
-        "img": "images/items/cassette.png",
+        "img": "images/items/items/cassette.png",
         "codes": "cassette6"
     },    
     {
         "name": "Summit Cassette",
         "type": "toggle",
-        "img": "images/items/cassette.png",
+        "img": "images/items/items/cassette.png",
         "codes": "cassette7"
     },    
     {
         "name": "Core Cassette",
         "type": "toggle",
-        "img": "images/items/cassette.png",
+        "img": "images/items/items/cassette.png",
         "codes": "cassette9"
-    },
-    {
-        "name": "Strawberry Total",
-        "type": "consumable",
-        "img": "images/items/berry.png",
-        "max_quantity": 175,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#000000",
-        "overlay_font_size": 12,
-        "codes": "berryttl"
-    },
-    {
-        "name": "Crystal Heart Total",
-        "type": "consumable",
-        "img": "images/items/red_heart.png",
-        "max_quantity": 24,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#000000",
-        "overlay_font_size": 12,
-        "codes": "heartttl"
-    },
-    {
-        "name": "Cassette Total",
-        "type": "consumable",
-        "img": "images/items/cassette.png",
-        "max_quantity": 8,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#000000",
-        "overlay_font_size": 12,
-        "codes": "cassettesttl"
-    },
-    {
-        "name": "Level Completion Total",
-        "type": "consumable",
-        "img": "images/items/complete.png",
-        "max_quantity": 24,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#000000",
-        "overlay_font_size": 12,
-        "codes": "compttl"
     },
     {
         "name": "City A-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compa1"
     },    
     {
         "name": "Ridge A-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compa2"
     },    
     {
         "name": "Hotel A-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compa3"
     },    
     {
         "name": "Ridge A-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compa4"
     },    
     {
         "name": "Mirror Temple A-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compa5"
     },    
     {
         "name": "Reflection A-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compa6"
     },    
     {
         "name": "Summit A-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compa7"
     },    
     {
         "name": "Epilogue Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
-        "codes": "compep"
+        "img": "images/items/items/complete.png",
+        "codes": "compa8"
     },    
     {
         "name": "Core A-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compa9"
     },    
     {
         "name": "Farewell A-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compa10"
     },
     {
         "name": "City B-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compb1"
     },    
     {
         "name": "Old Site B-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compb2"
     },    
     {
         "name": "Hotel B-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compb3"
     },    
     {
         "name": "Ridge B-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compb4"
     },    
     {
         "name": "Mirror Temple B-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compb5"
     },    
     {
         "name": "Reflection B-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compb6"
     },    
     {
         "name": "Summit B-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compb7"
     },    
     {
         "name": "Core B-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compb9"
     },    
     {
         "name": "City C-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compc1"
     },
     {
         "name": "Old Site C-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compc2"
     },    
     {
         "name": "Hotel C-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compc3"
     },    
     {
         "name": "Ridge C-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compc4"
     },    
     {
         "name": "Mirror Temple C-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compc5"
     },    
     {
         "name": "Reflection C-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compc6"
     },    
     {
         "name": "Summit C-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compc7"
     },    
     {
         "name": "Core C-Side Level Completion",
         "type": "toggle",
-        "img": "images/items/complete.png",
+        "img": "images/items/items/complete.png",
         "codes": "compc9"
-    },
-    {
-        "name": "Goal",
-        "codes": "goal",
-        "type": "progressive",
-        "allow_disabled":false,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/summit.png",
-                "codes": "summit",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/core.png",
-                "codes": "core",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/farewell.png",
-                "codes": "farewell",
-                "inherit_codes": false
-            }
-            
-        ]
-    },
-    {
-        "name": "Strawberries Required",
-        "type": "consumable",
-        "img": "images/items/berry.png",
-        "max_quantity": 175,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#000000",
-        "overlay_font_size": 12,
-        "codes": "berryreq"
-    },
-    {
-        "name": "Hearts Required",
-        "type": "consumable",
-        "img": "images/items/red_heart.png",
-        "max_quantity": 24,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#000000",
-        "overlay_font_size": 12,
-        "codes": "heartreq"
-    },
-    {
-        "name": "Cassettes Required",
-        "type": "consumable",
-        "img": "images/items/cassette.png",
-        "max_quantity": 8,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#000000",
-        "overlay_font_size": 12,
-        "codes": "cassettesreq"
-    },
-    {
-        "name": "Completes Required",
-        "type": "consumable",
-        "img": "images/items/complete.png",
-        "max_quantity": 27,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#000000",
-        "overlay_font_size": 0,
-        "codes": "compreq"
-    },    
-    {
-        "name": "Goal Level",
-        "type": "toggle",
-        "img": "images/items/goal_level.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "goallevel"
-    },    
-    {
-        "name": "Strawberries Required",
-        "type": "toggle",
-        "img": "images/items/berries_required.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "berriesrequired"
-    },    
-    {
-        "name": "Hearts Required",
-        "type": "toggle",
-        "img": "images/items/hearts_required.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "heartsrequired"
-    },    
-    {
-        "name": "Cassettes Required",
-        "type": "toggle",
-        "img": "images/items/cassettes_required.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "cassettesrequired"
-    },    
-    {
-        "name": "Clears Required",
-        "type": "toggle",
-        "img": "images/items/comp_required.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "comprequired"
-    },    
-    {
-        "name": "Clear Total",
-        "type": "toggle",
-        "img": "images/items/comp_total.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "comptotal"
-    },    
-    {
-        "name": "Heart Total",
-        "type": "toggle",
-        "img": "images/items/heart_total.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "hearttotal"
-    },    
-    {
-        "name": "Berry Total",
-        "type": "toggle",
-        "img": "images/items/berry_total.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "berrytotal"
-    },    
-    {
-        "name": "Cassette Total",
-        "type": "toggle",
-        "img": "images/items/cassette_total.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "cassettetotal"
-    },    
-    {
-        "name": "Chapter 1",
-        "type": "toggle",
-        "img": "images/items/ch1.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch1"
-    },    
-    {
-        "name": "Chapter 2",
-        "type": "toggle",
-        "img": "images/items/ch2.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch2"
-    },    
-    {
-        "name": "Chapter 3",
-        "type": "toggle",
-        "img": "images/items/ch3.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch3"
-    },    
-    {
-        "name": "Chapter 4",
-        "type": "toggle",
-        "img": "images/items/ch4.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch4"
-    },    
-    {
-        "name": "Chapter 5",
-        "type": "toggle",
-        "img": "images/items/ch5.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch5"
-    },    
-    {
-        "name": "Chapter 6",
-        "type": "toggle",
-        "img": "images/items/ch6.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch6"
-    },    
-    {
-        "name": "Chapter 7",
-        "type": "toggle",
-        "img": "images/items/ch7.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch7"
-    },    
-    {
-        "name": "Epilogue",
-        "type": "toggle",
-        "img": "images/items/ep.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ep"
-    },    
-    {
-        "name": "Chapter 8",
-        "type": "toggle",
-        "img": "images/items/ch9.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch9"
-    },    
-    {
-        "name": "Chapter 9",
-        "type": "toggle",
-        "img": "images/items/ch10.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch10"
     }
 ]

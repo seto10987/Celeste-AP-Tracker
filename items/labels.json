@@ -1,0 +1,186 @@
+[  
+    {
+        "name": "Goal Level",
+        "type": "toggle",
+        "img": "images/items/labels/goal_level.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "goallevel"
+    },    
+    {
+        "name": "Strawberries Required",
+        "type": "toggle",
+        "img": "images/items/labels/berries_required.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "berryreq"
+    },    
+    {
+        "name": "Hearts Required",
+        "type": "toggle",
+        "img": "images/items/labels/hearts_required.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "heartreq"
+    },    
+    {
+        "name": "Cassettes Required",
+        "type": "toggle",
+        "img": "images/items/labels/cassettes_required.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "cassettesreq"
+    },    
+    {
+        "name": "Clears Required",
+        "type": "toggle",
+        "img": "images/items/labels/comp_required.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "compreq"
+    },    
+    {
+        "name": "Clear Total",
+        "type": "toggle",
+        "img": "images/items/labels/comp_total.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "compttl"
+    },    
+    {
+        "name": "Heart Total",
+        "type": "toggle",
+        "img": "images/items/labels/heart_total.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "heartttl"
+    },    
+    {
+        "name": "Berry Total",
+        "type": "toggle",
+        "img": "images/items/labels/berry_total.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "berryttl"
+    },    
+    {
+        "name": "Cassette Total",
+        "type": "toggle",
+        "img": "images/items/labels/cassette_total.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "cassettettl"
+    },    
+    {
+        "name": "A",
+        "type": "toggle",
+        "img": "images/items/labels/a.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "alabel"
+    },    
+    {
+        "name": "B",
+        "type": "toggle",
+        "img": "images/items/labels/b.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "blabel"
+    },    
+    {
+        "name": "C",
+        "type": "toggle",
+        "img": "images/items/labels/c.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "clabel"
+    },    
+    {
+        "name": "Cassettes",
+        "type": "toggle",
+        "img": "images/items/labels/cassette_label.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "cassettelabel"
+    },    
+    {
+        "name": "Chapter 1",
+        "type": "toggle",
+        "img": "images/items/labels/ch1.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch1"
+    },    
+    {
+        "name": "Chapter 2",
+        "type": "toggle",
+        "img": "images/items/labels/ch2.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch2"
+    },    
+    {
+        "name": "Chapter 3",
+        "type": "toggle",
+        "img": "images/items/labels/ch3.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch3"
+    },    
+    {
+        "name": "Chapter 4",
+        "type": "toggle",
+        "img": "images/items/labels/ch4.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch4"
+    },    
+    {
+        "name": "Chapter 5",
+        "type": "toggle",
+        "img": "images/items/labels/ch5.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch5"
+    },    
+    {
+        "name": "Chapter 6",
+        "type": "toggle",
+        "img": "images/items/labels/ch6.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch6"
+    },    
+    {
+        "name": "Chapter 7",
+        "type": "toggle",
+        "img": "images/items/labels/ch7.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch7"
+    },    
+    {
+        "name": "Epilogue",
+        "type": "toggle",
+        "img": "images/items/labels/ep.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ep"
+    },    
+    {
+        "name": "Chapter 8",
+        "type": "toggle",
+        "img": "images/items/labels/ch9.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch9"
+    },    
+    {
+        "name": "Chapter 9",
+        "type": "toggle",
+        "img": "images/items/labels/ch10.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "ch10"
+    }
+]

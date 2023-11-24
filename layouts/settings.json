@@ -25,16 +25,16 @@
                                 "", "goallevel", "goal", ""
                             ],                        
                             [
-                                "berrytotal", "berryttl", "berryreq", "berriesrequired"
+                                "berryttl", "berrytotal", "berriesrequired", "berryreq"
                             ],
                             [
-                                "hearttotal", "heartttl", "heartreq", "heartsrequired"
+                                "heartttl", "hearttotal", "heartsrequired", "heartreq"
                             ],
                             [
-                                "cassettetotal", "cassettesttl", "cassettesreq", "cassettesrequired"
+                                "cassettettl", "cassettestotal", "cassettesrequired", "cassettesreq"
                             ],
                             [
-                                "comptotal", "compttl", "compreq", "comprequired"
+                                "compttl", "comptotal", "comprequired", "compreq"
                             ],
                             [
                                 "", "", "", ""
