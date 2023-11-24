@@ -1,0 +1,163 @@
+[
+    {
+        "name": "Old Site-Intervention",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
+        "access_rules": 
+        ["$A2"],
+        "children": [
+            {
+                "name": "Strawberry 10",
+                "map_locations": 
+                [
+                    {
+                        "map": "old_site_intervention",
+                        "x": 358,
+                        "y": 1151
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 11",
+                "map_locations": 
+                [
+                    {
+                        "map": "old_site_intervention",
+                        "x": 87,
+                        "y": 982
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 12",
+                "map_locations": 
+                [
+                    {
+                        "map": "old_site_intervention",
+                        "x": 119,
+                        "y": 287
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 13",
+                "map_locations": 
+                [
+                    {
+                        "map": "old_site_intervention",
+                        "x": 478,
+                        "y": 142
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 14",
+                "map_locations": 
+                [
+                    {
+                        "map": "old_site_intervention",
+                        "x": 750,
+                        "y": 511
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 15",
+                "map_locations": 
+                [
+                    {
+                        "map": "old_site_intervention",
+                        "x": 918,
+                        "y": 799
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 16",
+                "map_locations": 
+                [
+                    {
+                        "map": "old_site_intervention",
+                        "x": 1870,
+                        "y": 1519
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 17",
+                "map_locations": 
+                [
+                    {
+                        "map": "old_site_intervention",
+                        "x": 2207,
+                        "y": 2087
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            }          
+        ]
+    }
+]

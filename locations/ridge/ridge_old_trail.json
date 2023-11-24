@@ -1,0 +1,144 @@
+[
+    {
+        "name": "Ridge-Old Trail",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
+        "access_rules": 
+        ["$A4"],
+        "children": [
+            {
+                "name": "Strawberry 18",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_old_trail",
+                        "x": 160,
+                        "y": 1920
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 19",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_old_trail",
+                        "x": 697,
+                        "y": 2184
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 20",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_old_trail",
+                        "x": 2520,
+                        "y": 1664
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 21",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_old_trail",
+                        "x": 2072,
+                        "y": 1223
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 22",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_old_trail",
+                        "x": 2592,
+                        "y": 1104
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 23",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_old_trail",
+                        "x": 3856,
+                        "y": 280
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 24",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_old_trail",
+                        "x": 4192,
+                        "y": 128
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            }          
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Core-Into the Core",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
+        "access_rules": 
+        ["compa8, $CORE, $HEART|hearttotal|4", "compa8, core, $HEART|hearttotal|4, $GOAL"],
+        "children": [
+            {
+                "name": "Strawberry 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "core_into_the_core",
+                        "x": 999,
+                        "y": 1056
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            }         
+        ]
+    }
+]

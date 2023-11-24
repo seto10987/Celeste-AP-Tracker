@@ -1,0 +1,279 @@
+[
+    {
+        "name": "Hotel",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
+        "children": [
+            {
+                "name": "Hotel A-Side - Start",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 390,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                ["$A3"],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry 1",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 2",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 3",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 4",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 5",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 6",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 7",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 8",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 9",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 10",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 11",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hotel A-Side - Huge Mess",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 424,
+                        "y": 173
+                    }
+                ],
+                "access_rules": 
+                ["$A3"],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry 12",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 13",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 14",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 15",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 16",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 17",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 18",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crystal Heart",
+                        "chest_unopened_img": "images/items/items/blue_heart.png",
+                        "chest_opened_img": "images/items/items/blue_heart2.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hotel A-Side - Elevator Shaft",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 390,
+                        "y": 206
+                    }
+                ],
+                "access_rules": 
+                ["$A3"],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry 19",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 20",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 21",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 22",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cassette",
+                        "chest_unopened_img": "images/items/items/cassette.png",
+                        "chest_opened_img": "images/items/items/cassette2.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hotel A-Side - Presidential Suite",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 424,
+                        "y": 206
+                    }
+                ],
+                "access_rules": 
+                ["$A3"],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry 23",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 24",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Strawberry 25",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Level Complete",
+                        "chest_unopened_img": "images/items/items/complete.png",
+                        "chest_opened_img": "images/items/items/complete2.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hotel B-Side",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 407,
+                        "y": 279
+                    }
+                ],
+                "access_rules": 
+                ["cassette3"],
+                "sections": 
+                [
+                    {
+                        "name": "Crystal Heart",
+                        "chest_unopened_img": "images/items/items/red_heart.png",
+                        "chest_opened_img": "images/items/items/red_heart2.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Level Complete",
+                        "chest_unopened_img": "images/items/items/complete.png",
+                        "chest_opened_img": "images/items/items/complete2.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hotel C-Side",
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 407,
+                        "y": 319
+                    }
+                ],
+                "access_rules": 
+                ["$C3"],
+                "sections": 
+                [
+                    {
+                        "name": "Crystal Heart",
+                        "chest_unopened_img": "images/items/items/yellow_heart.png",
+                        "chest_opened_img": "images/items/items/yellow_heart2.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Level Complete",
+                        "chest_unopened_img": "images/items/items/complete.png",
+                        "chest_opened_img": "images/items/items/complete2.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            }             
+        ]
+    }
+]

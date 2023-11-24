@@ -1,0 +1,125 @@
+[
+    {
+        "name": "Summit-1000 M",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
+        "access_rules": 
+        ["$A7, $SUMMIT", "$A7, summit, $GOAL"],
+        "children": [
+            {
+                "name": "Strawberry 11",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_1000_m",
+                        "x": 575,
+                        "y": 1847
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 12",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_1000_m",
+                        "x": 2783,
+                        "y": 1575
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 13",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_1000_m",
+                        "x": 2359,
+                        "y": 1519
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 14",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_1000_m",
+                        "x": 2016,
+                        "y": 919
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 15",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_1000_m",
+                        "x": 3416,
+                        "y": 911
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            } ,
+            {
+                "name": "Strawberry 16",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_1000_m",
+                        "x": 4304,
+                        "y": 568
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            }          
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Mirror Temple-Unravelling",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
+        "access_rules": 
+        ["$A5"],
+        "children": [
+            {
+                "name": "Strawberry 24",
+                "map_locations": 
+                [
+                    {
+                        "map": "mirror_temple_unravelling",
+                        "x": 1983,
+                        "y": 647
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            }         
+        ]
+    }
+]

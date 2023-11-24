@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Ridge-Cliff Face",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
+        "access_rules": 
+        ["$A4"],
+        "children": [
+            {
+                "name": "Strawberry 25",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_cliff_face",
+                        "x": 480,
+                        "y": 245
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 26",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_cliff_face",
+                        "x": 1151,
+                        "y": 437
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 27",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_cliff_face",
+                        "x": 2575,
+                        "y": 285
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 28",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_cliff_face",
+                        "x": 3847,
+                        "y": 269
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 29",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_cliff_face",
+                        "x": 5735,
+                        "y": 197
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Level Complete",
+                "chest_unopened_img": "images/items/items/complete.png",
+                "chest_opened_img": "images/items/items/complete2.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "ridge_cliff_face",
+                        "x": 6173,
+                        "y": 123
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Level Complete",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            }          
+        ]
+    }
+]

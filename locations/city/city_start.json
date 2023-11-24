@@ -1,0 +1,127 @@
+[
+    {
+        "name": "City-Start",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
+        "visibility_rules": 
+        [""],
+        "access_rules": 
+        [""],
+        "children": [
+            {
+                "name": "Strawberry 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "city_start",
+                        "x": 335,
+                        "y": 880
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "city_start",
+                        "x": 784,
+                        "y": 784
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "city_start",
+                        "x": 992,
+                        "y": 352
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 4",
+                "map_locations": 
+                [
+                    {
+                        "map": "city_start",
+                        "x": 848,
+                        "y": 248
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 5",
+                "map_locations": 
+                [
+                    {
+                        "map": "city_start",
+                        "x": 1056,
+                        "y": 31
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 6",
+                "map_locations": 
+                [
+                    {
+                        "map": "city_start",
+                        "x": 1584,
+                        "y": 248
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            }            
+        ]
+    }
+]
