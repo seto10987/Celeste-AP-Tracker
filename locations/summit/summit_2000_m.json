@@ -1,0 +1,163 @@
+[
+    {
+        "name": "Summit-2000 M",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
+        "access_rules": 
+        ["$A7, $SUMMIT", "$A7, summit, $GOAL"],
+        "children": [
+            {
+                "name": "Strawberry 25",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_2000_m",
+                        "x": 1407,
+                        "y": 2512
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 26",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_2000_m",
+                        "x": 3239,
+                        "y": 2496
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 27",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_2000_m",
+                        "x": 4363,
+                        "y": 1804
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 28",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_2000_m",
+                        "x": 4015,
+                        "y": 1472
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 29",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_2000_m",
+                        "x": 4407,
+                        "y": 1040
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 30",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_2000_m",
+                        "x": 4711,
+                        "y": 1343
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 31",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_2000_m",
+                        "x": 5239,
+                        "y": 1523
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 32",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_2000_m",
+                        "x": 6551,
+                        "y": 640
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            }       
+        ]
+    }
+]

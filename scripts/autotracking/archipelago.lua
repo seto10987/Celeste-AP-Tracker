@@ -19,20 +19,17 @@ function onClear(slot_data)
     SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
-    for _, v in pairs(LOCATION_MAPPING) do
-        if v[1] then
-            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: clearing location %s", v[1]))
-            end
-            local obj = Tracker:FindObjectForCode(v[1])
-            if obj then
-                if v[1]:sub(1, 1) == "@" then
-                    obj.AvailableChestCount = obj.ChestCount
-                else
-                    obj.Active = false
+    for _, location_array in pairs(LOCATION_MAPPING) do
+        for _, location in pairs(location_array) do
+            if location then
+                local obj = Tracker:FindObjectForCode(location)
+                if obj then
+                    if location:sub(1, 1) == "@" then
+                        obj.AvailableChestCount = obj.ChestCount
+                    else
+                        obj.Active = false
+                    end
                 end
-            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: could not find object for code %s", v[1]))
             end
         end
     end
@@ -66,16 +63,16 @@ function onClear(slot_data)
     --print(Tracker.FindObjectForCode("berriesreq").AcquiredCount)
     
     if slot_data["berries_required"] ~= 0 then
-        Tracker:FindObjectForCode("berryreq").AcquiredCount = tonumber(slot_data["berries_required"])
+        Tracker:FindObjectForCode("berriesrequired").AcquiredCount = tonumber(slot_data["berries_required"])
     end
     if slot_data["hearts_required"] ~= 0 then
-        Tracker:FindObjectForCode("heartreq").AcquiredCount = tonumber(slot_data["hearts_required"])
+        Tracker:FindObjectForCode("heartsrequired").AcquiredCount = tonumber(slot_data["hearts_required"])
     end
     if slot_data["berries_required"] ~= 0 then
-        Tracker:FindObjectForCode("cassettesreq").AcquiredCount = tonumber(slot_data["cassettes_required"])
+        Tracker:FindObjectForCode("cassettesrequired").AcquiredCount = tonumber(slot_data["cassettes_required"])
     end
     if slot_data["levels_required"] ~= 0 then
-        Tracker:FindObjectForCode("compreq").AcquiredCount = tonumber(slot_data["levels_required"])
+        Tracker:FindObjectForCode("comprequired").AcquiredCount = tonumber(slot_data["levels_required"])
     end
     if slot_data["victory_condition"] then
         Tracker:FindObjectForCode("goal").CurrentStage = tonumber(slot_data["victory_condition"])
@@ -150,28 +147,25 @@ end
 
 -- called when a location gets cleared
 function onLocation(location_id, location_name)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onLocation: %s, %s", location_id, location_name))
-    end
-    if not AUTOTRACKER_ENABLE_LOCATION_TRACKING then
-        return
-    end
-    local v = LOCATION_MAPPING[location_id]
-    if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    local location_array = LOCATION_MAPPING[location_id]
+    if not location_array or not location_array[1] then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
-    end
-    if not v[1] then
         return
     end
-    local obj = Tracker:FindObjectForCode(v[1])
-    if obj then
-        if v[1]:sub(1, 1) == "@" then
-            obj.AvailableChestCount = obj.AvailableChestCount - 1
+    
+    for _, location in pairs(location_array) do
+        local obj = Tracker:FindObjectForCode(location)
+        -- print(location, obj)
+        if obj then
+
+            if location:sub(1, 1) == "@" then
+                obj.AvailableChestCount = obj.AvailableChestCount - 1
+            else
+                obj.Active = true
+            end
         else
-            obj.Active = true
+            print(string.format("onLocation: could not find object for code %s", location))
         end
-    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onLocation: could not find object for code %s", v[1]))
     end
 end
 

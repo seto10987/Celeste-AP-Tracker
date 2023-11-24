@@ -92,16 +92,16 @@ function checkRequirements(reference, check_count)
     end
 end
 function BERRYREQ()
-    return checkRequirements("berryreq", "berryttl")
+    return checkRequirements("berryrequired", "berrytotal")
 end
 function HEARTREQ()
-    return checkRequirements("heartreq", "heartttl")
+    return checkRequirements("heartrequired", "hearttotal")
 end
 function CASSETTESREQ()
-    return checkRequirements("cassettesreq", "cassettesttl")
+    return checkRequirements("cassettesrequired", "cassettestotal")
 end
 function COMPREQ()
-    return checkRequirements("compreq", "compttl")
+    return checkRequirements("comprequired", "comptotal")
 end
 function GOAL()
     return
@@ -116,8 +116,8 @@ function has(item, amount)
         return count >= amount
     end
 end
-function HEART(gemheart, count)
-    if Tracker:FindObjectForCode(gemheart).AcquiredCount >= tonumber(count) then
+function HEART(hearttotal, count)
+    if Tracker:FindObjectForCode(hearttotal).AcquiredCount >= tonumber(count) then
         return true
     else
         return false

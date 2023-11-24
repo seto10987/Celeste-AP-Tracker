@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Hotel-Presidential Suite",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
+        "access_rules": 
+        ["$A3"],
+        "children": [
+            {
+                "name": "Strawberry 23",
+                "map_locations": 
+                [
+                    {
+                        "map": "hotel_presidential_suite",
+                        "x": 2272,
+                        "y": 47
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 24",
+                "map_locations": 
+                [
+                    {
+                        "map": "hotel_presidential_suite",
+                        "x": 4831,
+                        "y": 43
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 25",
+                "map_locations": 
+                [
+                    {
+                        "map": "hotel_presidential_suite",
+                        "x": 5471,
+                        "y": 144
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Level Complete",
+                "chest_unopened_img": "images/items/items/complete.png",
+                "chest_opened_img": "images/items/items/complete2.png",                
+                "map_locations": 
+                [
+                    {
+                        "map": "hotel_presidential_suite",
+                        "x": 6502,
+                        "y": 53
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Level Complete",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            }          
+        ]
+    }
+]

@@ -5,5 +5,203 @@
         "location_size": 18,
         "location_border_thickness": 4,
         "img": "images/maps/celeste-chapter-select.png"
+    },
+    {
+        "name": "city_start",
+        "location_size": 35,
+        "location_border_thickness": 4,
+        "img": "images/maps/1_city/city-start.png"
+    },
+    {
+        "name": "city_crossing",
+        "location_size": 35,
+        "location_border_thickness": 4,
+        "img": "images/maps/1_city/city-crossing.png"
+    },
+    {
+        "name": "city_chasm",
+        "location_size": 35,
+        "location_border_thickness": 4,
+        "img": "images/maps/1_city/city-chasm.png"
+    },
+    {
+        "name": "old_site_start",
+        "location_size": 50,
+        "location_border_thickness": 4,
+        "img": "images/maps/2_old_site/old-site-start.png"
+    },
+    {
+        "name": "old_site_intervention",
+        "location_size": 65,
+        "location_border_thickness": 4,
+        "img": "images/maps/2_old_site/old-site-intervention.png"
+    },
+    {
+        "name": "old_site_awake",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/2_old_site/old-site-awake.png"
+    },
+    {
+        "name": "hotel_start",
+        "location_size": 45,
+        "location_border_thickness": 4,
+        "img": "images/maps/3_hotel/hotel-start.png"
+    },
+    {
+        "name": "hotel_huge_mess",
+        "location_size": 40,
+        "location_border_thickness": 4,
+        "img": "images/maps/3_hotel/hotel-huge-mess.png"
+    },
+    {
+        "name": "hotel_elevator_shaft",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/3_hotel/hotel-elevator-shaft.png"
+    },
+    {
+        "name": "hotel_presidential_suite",
+        "location_size": 65,
+        "location_border_thickness": 4,
+        "img": "images/maps/3_hotel/hotel-presidential-suite.png"
+    },
+    {
+        "name": "ridge_start",
+        "location_size": 45,
+        "location_border_thickness": 4,
+        "img": "images/maps/4_ridge/ridge-start.png"
+    },
+    {
+        "name": "ridge_shrine",
+        "location_size": 32,
+        "location_border_thickness": 4,
+        "img": "images/maps/4_ridge/ridge-shrine.png"
+    },
+    {
+        "name": "ridge_old_trail",
+        "location_size": 62,
+        "location_border_thickness": 4,
+        "img": "images/maps/4_ridge/ridge-old-trail.png"
+    },
+    {
+        "name": "ridge_cliff_face",
+        "location_size": 55,
+        "location_border_thickness": 4,
+        "img": "images/maps/4_ridge/ridge-cliff-face.png"
+    },
+    {
+        "name": "mirror_temple_start",
+        "location_size": 50,
+        "location_border_thickness": 4,
+        "img": "images/maps/5_mirror_temple/mirror-temple-start.png"
+    },
+    {
+        "name": "mirror_temple_depths",
+        "location_size": 60,
+        "location_border_thickness": 4,
+        "img": "images/maps/5_mirror_temple/mirror-temple-depths.png"
+    },
+    {
+        "name": "mirror_temple_unravelling",
+        "location_size": 40,
+        "location_border_thickness": 4,
+        "img": "images/maps/5_mirror_temple/mirror-temple-unravelling.png"
+    },
+    {
+        "name": "mirror_temple_search",
+        "location_size": 35,
+        "location_border_thickness": 4,
+        "img": "images/maps/5_mirror_temple/mirror-temple-search.png"
+    },
+    {
+        "name": "mirror_temple_search_2",
+        "location_size": 55,
+        "location_border_thickness": 4,
+        "img": "images/maps/5_mirror_temple/mirror-temple-search-2.png"
+    },
+    {
+        "name": "reflection_hollows",
+        "location_size": 30,
+        "location_border_thickness": 4,
+        "img": "images/maps/6_reflection/reflection-hollows.png"
+    },
+    {
+        "name": "summit_start",
+        "location_size": 56,
+        "location_border_thickness": 4,
+        "img": "images/maps/7_summit/summit-start.png"
+    },
+    {
+        "name": "summit_500_m",
+        "location_size": 65,
+        "location_border_thickness": 4,
+        "img": "images/maps/7_summit/summit-500-m.png"
+    },
+    {
+        "name": "summit_1000_m",
+        "location_size": 75,
+        "location_border_thickness": 4,
+        "img": "images/maps/7_summit/summit-1000-m.png"
+    },
+    {
+        "name": "summit_1500_m",
+        "location_size": 45,
+        "location_border_thickness": 4,
+        "img": "images/maps/7_summit/summit-1500-m.png"
+    },
+    {
+        "name": "summit_2000_m",
+        "location_size": 80,
+        "location_border_thickness": 4,
+        "img": "images/maps/7_summit/summit-2000-m.png"
+    },
+    {
+        "name": "summit_2500_m",
+        "location_size": 60,
+        "location_border_thickness": 4,
+        "img": "images/maps/7_summit/summit-2500-m.png"
+    },
+    {
+        "name": "summit_3000_m_1",
+        "location_size": 145,
+        "location_border_thickness": 4,
+        "img": "images/maps/7_summit/summit-3000-m-1.png"
+    },
+    {
+        "name": "summit_3000_m_2",
+        "location_size": 185,
+        "location_border_thickness": 4,
+        "img": "images/maps/7_summit/summit-3000-m-2.png"
+    },
+    {
+        "name": "summit_3000_m",
+        "location_size": 325,
+        "location_border_thickness": 4,
+        "img": "images/maps/7_summit/summit-3000-m.png"
+    },
+    {
+        "name": "core_into_the_core",
+        "location_size": 50,
+        "location_border_thickness": 4,
+        "img": "images/maps/8_core/core-into-the-core.png"
+    },
+    {
+        "name": "core_hot_and_cold",
+        "location_size": 35,
+        "location_border_thickness": 4,
+        "img": "images/maps/8_core/core-hot-and-cold.png"
+    },
+    {
+        "name": "core_heart_of_the_mountain",
+        "location_size": 130,
+        "location_border_thickness": 4,
+        "img": "images/maps/8_core/core-heart-of-the-mountain.png"
+    },
+    {
+        "name": "core_heart_of_the_mountain_2",
+        "location_size": 80,
+        "location_border_thickness": 4,
+        "img": "images/maps/8_core/core-heart-of-the-mountain-2.png"
     }
 ]

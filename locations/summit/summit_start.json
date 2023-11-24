@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Summit-Start",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
+        "access_rules": 
+        ["$A7, $SUMMIT", "$A7, summit, $GOAL"],
+        "children": [
+            {
+                "name": "Strawberry 1",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_start",
+                        "x": 1096,
+                        "y": 928
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 2",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_start",
+                        "x": 2071,
+                        "y": 640
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 3",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_start",
+                        "x": 2263,
+                        "y": 687
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Strawberry 4",
+                "map_locations": 
+                [
+                    {
+                        "map": "summit_start",
+                        "x": 2735,
+                        "y": 679
+                    }
+                ],
+                "sections": 
+                [
+                    {
+                        "name": "Strawberry",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ]
+            }         
+        ]
+    }
+]
