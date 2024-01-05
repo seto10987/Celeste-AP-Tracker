@@ -14,7 +14,6 @@ GLOBAL_ITEMS = {}
 function onClear(slot_data)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
-        print("1")
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
@@ -59,9 +58,7 @@ function onClear(slot_data)
         end
     end
     print(dump_table(SLOT_DATA))
-    -- Set goal
-    --print(Tracker.FindObjectForCode("berriesreq").AcquiredCount)
-    
+
     if slot_data["berries_required"] ~= 0 then
         Tracker:FindObjectForCode("berriesrequired").AcquiredCount = tonumber(slot_data["berries_required"])
     end

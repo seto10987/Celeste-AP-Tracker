@@ -64,6 +64,10 @@ function A7()
     return
     has ("compa6") or has ("compb6") or has ("compc6")
 end
+function A8()
+    return
+    has ("compa7") or has ("compb7") or has ("compc7")
+end
 function A10()
     return
     has ("compa9") or has ("compb9") or has ("compc9")
@@ -92,10 +96,10 @@ function checkRequirements(reference, check_count)
     end
 end
 function BERRYREQ()
-    return checkRequirements("berryrequired", "berrytotal")
+    return checkRequirements("berriesrequired", "berrytotal")
 end
 function HEARTREQ()
-    return checkRequirements("heartrequired", "hearttotal")
+    return checkRequirements("heartsrequired", "hearttotal")
 end
 function CASSETTESREQ()
     return checkRequirements("cassettesrequired", "cassettestotal")
