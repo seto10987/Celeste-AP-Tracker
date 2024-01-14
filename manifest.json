@@ -8,9 +8,8 @@
     "variants": {
         "standard": {
             "display_name": "Map Tracker",
-            "flags": [
-                "ap"
-            ]
+            "flags": ["ap"]
         }
-    }
+    },
+	"versions_url": "https://raw.githubusercontent.com/seto10987/Celeste-AP-Tracker/versions/versions.json"
 }
