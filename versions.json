@@ -1,0 +1,10 @@
+{
+	"versions": [
+		{
+			"package_version": "2.3.0",
+			"download_url": "https://github.com/seto10987/Celeste-AP-Tracker/releases/tag/v2.3.0",
+			"sha256": "91a572d84c50a48795b859f0e3b8ec23ef268232914ddf310b19e816bcf169be",
+			"changelog": ["Added automatic updates to Celeste Pack"]
+		}
+	]
+}
