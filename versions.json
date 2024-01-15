@@ -1,104 +1,10 @@
 {
 	"versions": [
 		{
-			"package_version": "0.0.2.3",
-			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.2.3",
-			"sha256": "47f477a00935d4654de275098f756904e7aa318f38ad69562968ee2bf2915efa",
-			"changelog": ["Fixed victory road waterfall items logic", "Fixed wingull delivery reward for free fly"]
-		},
-		{
-			"package_version": "0.0.2.2",
-			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.2.2",
-			"sha256": "f8cc73238ab8b5c4e1c9f4a486a33c26496f3c86f8feaba167559d8aa9bcaa0f",
-			"changelog": [
-				"Added goal to settings",
-				"Adjusted Meteor Falls map",
-				"Fixed Abandoned Ship keys requiring itemfinder",
-				"Changed Deliver Devon Goods to have Dock sprite"
-			]
-		},
-		{
-			"package_version": "0.0.2.1",
-			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.2.1",
-			"sha256": "1a65a07db1f4d2f47aaf64218526321b4b8c450f1aad7e57908ed2426d31d988",
-			"changelog": [
-				"Added Rt. 132-134 detail map",
-				"Added Steven's room to Meteor Falls detail map",
-				"Fixed items not resetting when connecting to AP",
-				"Various other fixes"
-			]
-		},
-		{
-			"package_version": "0.0.2.0",
-			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.2.0",
-			"sha256": "f3682abaa63b241d07418cd41820ed1a090f0a0dd5d224f26d50f31bb55118b5",
-			"changelog": ["Hotfix to key item autotracking update"]
-		},
-		{
-			"package_version": "0.0.1.9",
-			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.9",
-			"sha256": "02cb08615d9bd1f5d1147466e08a2e9efce98888dcc32102f5a4de6d77772350",
-			"changelog": [
-				"Unrandomized key items now autotrack on supported builds",
-				"Fixed Wingull Reward logic",
-				"Fixed Safari Zone logic when freeflying to Lilycove",
-				"Fixed Wailmer Pail check being categorized as NPC Gift"
-			]
-		},
-		{
-			"package_version": "0.0.1.8",
-			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.8",
-			"sha256": "e64a88447f08e0352c19ea6d290020963d64ecbd6d3250fc1821c5a87df36478",
-			"changelog": ["Fixed Sootopolis logic"]
-		},
-		{
-			"package_version": "0.0.1.7",
-			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.7",
-			"sha256": "40f172949d9b4c41de320beea0f1abcd7132b4b520b59e9e1e7337773b2557f5",
-			"changelog": [
-				"Fixed Rt.115 beach, Rt.118 Fisherman, Slateport Devon Goods logic",
-				"Changed require flash/itemfinder checks to show as obtainable out of logic (yellow) when applicable",
-				"Fixed clearing events on AP connect? again?"
-			]
-		},
-		{
-			"package_version": "0.0.1.6",
-			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.6",
-			"sha256": "5fad154a66a9d581dcadc3de05249e9483794b0ed47e240b5972fa837bad1ba9",
-			"changelog": [
-				"Updated events tracking again",
-				"!!Compatibility is broken again, events will not track on older rando builds!!",
-				"Updated more assets",
-				"Fixed Meteor Falls access logic with extra boulders enabled",
-				"Fixed Pacifidog and Rt. 132-134 access logic",
-				"Fixed Norman and E4 settings to allow a requirement of 0",
-				"Fixed events not clearing when connecting to AP"
-			]
-		},
-		{
-			"package_version": "0.0.1.5",
-			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.5",
-			"sha256": "b45283988fb92cbbacfacc6d956d69a9e468809c384bb1cb078989a98da066b9",
-			"changelog": [
-				"Updated events autotracking to work with latest rando commit",
-				"!! THIS BREAKS COMPATIBILITY WITH OLD VERSIONS OF THE RANDO !!",
-				"Added Steven Gift event",
-				"Remade several assets",
-				"Progression items are now directly hosted when not randomised",
-				"Added pack variant to disable all hosted items"
-			]
-		},
-		{
-			"package_version": "0.0.1.4",
-			"download_url": "https://codeload.github.com/AliceMousie/emerald-ap-tracker/zip/refs/tags/v0.0.1.4",
-			"sha256": "d152bc0874e6e4959965d241fa7217cf26cb14982fedb260cbba747d328ff3b4",
-			"changelog": [
-				"Supports autotracking for events!",
-				" - (Ensure you are using an up to date commit of the rando for this)",
-				"Remade Free Fly Location assets",
-				"Pack now automatically checks for new releases",
-				"Wailmer Pail is no more"
-			]
+			"package_version": "2.3.0",
+			"download_url": "https://github.com/seto10987/Celeste-AP-Tracker/archive/refs/tags/v2.3.0.zip",
+			"sha256": "52dc8798e730fe413d49499903f069f360134b613d51e27ccfd8032cb0853799",
+			"changelog": ["Auto-Update Support"]
 		}
 	]
 }
