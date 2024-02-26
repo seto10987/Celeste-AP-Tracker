@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "2.4.0",
+			"download_url": "https://github.com/seto10987/Celeste-AP-Tracker/archive/refs/tags/v2.4.0.zip",
+			"sha256": "68e145afe0cf4dd671d80b4c5b7e2be872e0ba33d7a4b33b337f6b3bca2dafac",
+			"changelog": ["Strawberries now share an Item Code in the Apworld, tracker changed to track these properly. In the new update, levels past your Goal Level no longer exist as checks. Tracker now hides levels without checks past your goal, and checks no longer appear.Changes related to Core Access in Core Goals. With Core and Farewell now properly being referred to in-game as Chapter 8 and 9, tracker now matches this internally."]
+		},
+		{
 			"package_version": "2.3.0",
 			"download_url": "https://github.com/seto10987/Celeste-AP-Tracker/archive/refs/tags/v2.3.0.zip",
 			"sha256": "52dc8798e730fe413d49499903f069f360134b613d51e27ccfd8032cb0853799",
