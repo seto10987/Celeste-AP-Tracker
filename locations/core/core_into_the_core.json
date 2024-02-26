@@ -3,8 +3,9 @@
         "name": "Core-Into the Core",
         "chest_unopened_img": "images/items/items/berry.png",
         "chest_opened_img": "images/items/items/berry2.png",
+        "visibility_rules": ["core", "farewell"],
         "access_rules": 
-        ["compa8, $CORE, $HEART|hearttotal|4", "compa8, core, $HEART|hearttotal|4, $GOAL"],
+        ["compep, $CORE, $HEART|hearttotal|4", "compep, core, $HEART|hearttotal|4, $GOAL"],
         "children": [
             {
                 "name": "Strawberry 1",

@@ -20,28 +20,28 @@
                         "rows": [
                             
                             [
-                                "", "ch1", "ch2", "ch3", "ch4", "ch5", "ch6", "ch7", "ep", "ch9", "ch10"
+                                "", "ch1", "ch2", "ch3", "ch4", "ch5", "ch6", "ch7", "ep", "ch8", "ch9"
                             ],
                             [
-                                "alabel", "compa1", "compa2", "compa3", "compa4", "compa5", "compa6", "compa7", "compa8", "compa9", "compa10"
+                                "alabel", "compa1", "compa2", "compa3", "compa4", "compa5", "compa6", "compa7", "compep", "compa8", "compa9"
                             ],
                             [
-                                "blabel", "compb1", "compb2", "compb3", "compb4", "compb5", "compb6", "compb7", "", "compb9"
+                                "blabel", "compb1", "compb2", "compb3", "compb4", "compb5", "compb6", "compb7", "", "compb8"
                             ],
                             [
-                                "clabel", "compc1", "compc2", "compc3", "compc4", "compc5", "compc6", "compc7", "", "compc9"
+                                "clabel", "compc1", "compc2", "compc3", "compc4", "compc5", "compc6", "compc7", "", "compc8"
                             ],
                             [
-                                "cassettelabel", "cassette1", "cassette2", "cassette3", "cassette4", "cassette5", "cassette6", "cassette7", "", "cassette9"
+                                "cassettelabel", "cassette1", "cassette2", "cassette3", "cassette4", "cassette5", "cassette6", "cassette7", "", "cassette8"
                             ],
                             [
-                                "alabel", "hearta1", "hearta2", "hearta3", "hearta4", "hearta5", "hearta6", "hearta7", "", "hearta9"                             
+                                "alabel", "hearta1", "hearta2", "hearta3", "hearta4", "hearta5", "hearta6", "hearta7", "", "hearta8"                             
                             ],
                             [
-                                "blabel", "heartb1", "heartb2", "heartb3", "heartb4", "heartb5", "heartb6", "heartb7", "", "heartb9"
+                                "blabel", "heartb1", "heartb2", "heartb3", "heartb4", "heartb5", "heartb6", "heartb7", "", "heartb8"
                             ],
                             [
-                                "clabel", "heartc1", "heartc2", "heartc3", "heartc4", "heartc5", "heartc6", "heartc7", "", "heartc9"
+                                "clabel", "heartc1", "heartc2", "heartc3", "heartc4", "heartc5", "heartc6", "heartc7", "", "heartc8"
                             ]
                         ]
                     }

@@ -45,7 +45,7 @@
         "name": "Core A-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/items/blue_heart.png",
-        "codes": "hearta9"
+        "codes": "hearta8"
     },    
     {
         "name": "City B-Side Crystal Heart",
@@ -93,7 +93,7 @@
         "name": "Core B-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/items/red_heart.png",
-        "codes": "heartb9"
+        "codes": "heartb8"
     },    
     {
         "name": "City C-Side Crystal Heart",
@@ -141,7 +141,7 @@
         "name": "Core C-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/items/yellow_heart.png",
-        "codes": "heartc9"
+        "codes": "heartc8"
     },    
     {
         "name": "City Cassette",
@@ -189,7 +189,7 @@
         "name": "Core Cassette",
         "type": "toggle",
         "img": "images/items/items/cassette.png",
-        "codes": "cassette9"
+        "codes": "cassette8"
     },
     {
         "name": "City A-Side Level Completion",
@@ -237,19 +237,19 @@
         "name": "Epilogue Level Completion",
         "type": "toggle",
         "img": "images/items/items/complete.png",
-        "codes": "compa8"
+        "codes": "compep"
     },    
     {
         "name": "Core A-Side Level Completion",
         "type": "toggle",
         "img": "images/items/items/complete.png",
-        "codes": "compa9"
+        "codes": "compa8"
     },    
     {
         "name": "Farewell A-Side Level Completion",
         "type": "toggle",
         "img": "images/items/items/complete.png",
-        "codes": "compa10"
+        "codes": "compa9"
     },
     {
         "name": "City B-Side Level Completion",
@@ -297,7 +297,7 @@
         "name": "Core B-Side Level Completion",
         "type": "toggle",
         "img": "images/items/items/complete.png",
-        "codes": "compb9"
+        "codes": "compb8"
     },    
     {
         "name": "City C-Side Level Completion",
@@ -345,6 +345,6 @@
         "name": "Core C-Side Level Completion",
         "type": "toggle",
         "img": "images/items/items/complete.png",
-        "codes": "compc9"
+        "codes": "compc8"
     }
 ]

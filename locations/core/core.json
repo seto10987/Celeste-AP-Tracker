@@ -3,6 +3,7 @@
         "name": "Core",
         "chest_unopened_img": "images/items/items/berry.png",
         "chest_opened_img": "images/items/items/berry2.png",
+        "visibility_rules": ["core", "farewell"],
         "children": [
             {
                 "name": "Core A-Side - Into the Core",
@@ -15,8 +16,7 @@
                     }
                 ],
                 "access_rules": 
-                // remove $HEART|hearttotal|4 with new update
-                ["compa8, $CORE, $HEART|hearttotal|4", "compa8, core, $HEART|hearttotal|4, $GOAL"],
+                ["compep, $CORE, $HEART|hearttotal|4", "compep, core, $HEART|hearttotal|4, $GOAL"],
                 "sections": 
                 [
                     {
@@ -37,7 +37,7 @@
                     }
                 ],
                 "access_rules": 
-                ["compa8, $CORE, $HEART|hearttotal|4", "compa8, core, $HEART|hearttotal|4, $GOAL"],
+                ["compep, $CORE, $HEART|hearttotal|4", "compep, core, $HEART|hearttotal|4, $GOAL"],
                 "sections": 
                 [
                     {
@@ -68,7 +68,7 @@
                     }
                 ],
                 "access_rules": 
-                ["compa8, $CORE, $HEART|hearttotal|4", "compa8, core, $HEART|hearttotal|4, $GOAL"],
+                ["compep, $CORE, $HEART|hearttotal|4", "compep, core, $HEART|hearttotal|4, $GOAL"],
                 "sections": 
                 [
                     {
@@ -109,8 +109,8 @@
                         "y": 279
                     }
                 ],
-                "access_rules": 
-                ["cassette9, $HEART|hearttotal|15"],
+                "visibility_rules": ["farewell"],
+                "access_rules": ["cassette8, $HEART|hearttotal|15"],
                 "sections": 
                 [
                     {
@@ -139,8 +139,8 @@
                         "y": 319
                     }
                 ],
-                "access_rules": 
-                ["$C9, $HEART|hearttotal|23"],
+                "visibility_rules": ["farewell"],
+                "access_rules": ["$C8, $HEART|hearttotal|23"],
                 "sections": 
                 [
                     {

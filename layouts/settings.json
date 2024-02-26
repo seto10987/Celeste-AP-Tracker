@@ -19,9 +19,6 @@
                         "item_v_alignment": "center",
                         "rows": [
                             [
-                                ""
-                            ],
-                            [
                                 "", "goallevel", "goal", ""
                             ],                        
                             [
@@ -37,7 +34,10 @@
                                 "compttl", "comptotal", "comprequired", "compreq"
                             ],
                             [
-                                "", "", "", ""
+                                ""
+                            ],
+                            [
+                                ""
                             ]
                         ]
                     }

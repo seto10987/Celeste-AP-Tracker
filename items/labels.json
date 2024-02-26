@@ -173,7 +173,7 @@
         "img": "images/items/labels/ch9.png",
         "initial_active_state": true,
         "allow_disabled": false,
-        "codes": "ch9"
+        "codes": "ch8"
     },    
     {
         "name": "Chapter 9",
@@ -181,6 +181,6 @@
         "img": "images/items/labels/ch10.png",
         "initial_active_state": true,
         "allow_disabled": false,
-        "codes": "ch10"
+        "codes": "ch9"
     }
 ]

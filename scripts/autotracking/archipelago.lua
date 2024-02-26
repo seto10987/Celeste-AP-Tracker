@@ -5,6 +5,7 @@
 -- this is useful since remote items will not reset but local items might
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -74,6 +75,25 @@ function onClear(slot_data)
     if slot_data["victory_condition"] then
         Tracker:FindObjectForCode("goal").CurrentStage = tonumber(slot_data["victory_condition"])
     end
+    
+    -- function onChangedRegion(key, current_region, old_region)
+        -- Assuming you have the necessary values for IsOverworld, Level, Side, and Room
+        -- local CelestePlayState = CelestePlayState
+        -- local eventID = CelestePlayState:ToString()
+    
+        -- Archipelago:SetNotify({ eventID })
+    
+        -- print("Contents of " .. eventID .. ":")
+        -- print("IsOverworld:", celestePlayState.IsOverworld)
+        -- print("AreaKey.ID:", celestePlayState.AreaKey.ID)
+        -- print("AreaKey.Mode:", celestePlayState.AreaKey.Mode)
+        -- print("Room:", celestePlayState.Room)
+    
+        Archipelago:SetNotify({"Slot:" .. Archipelago.PlayerNumber .. ":CelestePlayState"})
+        print("IsOverworld:", CelestePlayState.IsOverworld)
+        print("AreaKey.ID:", celestePlayState.AreaKey.ID)
+        print("AreaKey.Mode:", celestePlayState.AreaKey.Mode)
+        print("Room:", celestePlayState.Room)
 end
 -- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
@@ -180,17 +200,23 @@ function onBounce(json)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onBounce: %s", dump_table(json)))
     end
-    -- your code goes here
 end
 
--- add AP callbacks
--- un-/comment as needed
+-- function onChangedRegion(key, current_region, old_region)
+--     print(CelestePlayState:IsOverworld())
+--     print(CelestePlayState.AreaKey.ID)
+--     print(CelestePlayState.AreaKey.Mode)
+--     print(CelestePlayState.Room)
+--     if Tracker:FindObjectForCode("tab_switch").CurrentStage == 1 then
+--         if TAB_MAPPING[current_region] then
+--             print(tab_mapping)
+--             CURRENT_ROOM = TAB_MAPPING[current_region]
+--         end
+--         Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+--     end
+-- end
+
 Archipelago:AddClearHandler("clear handler", onClear)
-if AUTOTRACKER_ENABLE_ITEM_TRACKING then
-    Archipelago:AddItemHandler("item handler", onItem)
-end
-if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
-    Archipelago:AddLocationHandler("location handler", onLocation)
-end
--- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddItemHandler("item handler", onItem)
+Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("CelestePlayState", onChangedRegion)

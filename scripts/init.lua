@@ -28,6 +28,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/labels.json")
 Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/auto_tab.json")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps

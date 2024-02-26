@@ -119,5 +119,20 @@
             }
             
         ]
-    }
+    },
+	{
+        "name": "Current Level",
+        "type": "progressive",
+        "img": "",
+        "disabled_img": "",
+        "codes": "cur_level_id"
+	},
+	{
+	  "name": "Auto-Tab",
+	  "type": "progressive",
+	  "loop": true,
+	  "img": "images/items/items/autotab.png",
+	  "disabled_img": "images/items/items/autotab_off.png",
+	  "codes": "tab_switch"
+	}
 ]

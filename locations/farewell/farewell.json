@@ -1,6 +1,7 @@
 [
     {
         "name": "Farewell",
+        "visibility_rules": ["farewell"],
         "children": [
             {
                 "name": "Farewell",
