@@ -10,5 +10,3 @@ Archipelago compatible Celeste Tracker pack, with individual level tracking for 
 Configurable Goal settings including Goal Level and Required Collectables, read directly from the Server.
 
 Supports Hints Tracking (hints made through the AP Server will show blue squares under the corresponding location in your game.)
-
-![Screenshot of the pack](images/preview.png)
