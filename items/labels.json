@@ -182,5 +182,13 @@
         "initial_active_state": true,
         "allow_disabled": false,
         "codes": "ch9"
+    },    
+    {
+        "name": "Heart Gates Label",
+        "type": "toggle",
+        "img": "images/items/labels/heart_gates.png",
+        "initial_active_state": true,
+        "allow_disabled": false,
+        "codes": "heart_gates_label"
     }
 ]

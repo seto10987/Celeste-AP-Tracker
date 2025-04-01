@@ -1,28 +1,28 @@
 [
     {
-        "name": "Farewell",
-        "visibility_rules": ["farewell"],
+        "name": "Epilogue Hint",
+        "access_rules":["{}"],
         "children": [
             {
-                "name": "Farewell",
-                "access_rules": ["$FAREWELL"],
+                "name": "Epilogue Hint",
                 "sections": 
                 [
                     {
-                        "name": "Level Complete",
+                        "name": "Level Complete Hint",
                         "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
+                        "chest_opened_img": "images/items/items/complete2.png",
+                        "visibility_rules": ["epilogue_complete"]
                     }
                 ],
                 "map_locations": 
                 [
                     {
                         "map": "celeste_chapter_select",
-                        "x": 1129,
-                        "y": 173
+                        "x": 954,
+                        "y": 163
                     }
                 ]
-            }             
+            }            
         ]
     }
 ]

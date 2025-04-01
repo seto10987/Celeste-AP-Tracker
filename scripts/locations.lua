@@ -1,0 +1,23 @@
+if not IS_ITEMS_ONLY then
+    Tracker:AddLocations("locations/city/city.json")
+    Tracker:AddLocations("locations/old_site/old_site.json")
+    Tracker:AddLocations("locations/hotel/hotel.json")
+    Tracker:AddLocations("locations/ridge/ridge.json")
+    Tracker:AddLocations("locations/mirror_temple/mirror_temple.json")
+    Tracker:AddLocations("locations/reflection/reflection.json")
+    Tracker:AddLocations("locations/summit/summit.json")
+    Tracker:AddLocations("locations/epilogue/epilogue.json")
+    Tracker:AddLocations("locations/core/core.json")
+    Tracker:AddLocations("locations/farewell/farewell.json")
+
+    Tracker:AddLocations("locations/city/city_hints.json")
+    Tracker:AddLocations("locations/old_site/old_site_hints.json")
+    Tracker:AddLocations("locations/hotel/hotel_hints.json")
+    Tracker:AddLocations("locations/ridge/ridge_hints.json")
+    Tracker:AddLocations("locations/mirror_temple/mirror_temple_hints.json")
+    Tracker:AddLocations("locations/reflection/reflection_hints.json")
+    Tracker:AddLocations("locations/summit/summit_hints.json")
+    Tracker:AddLocations("locations/epilogue/epilogue_hints.json")
+    Tracker:AddLocations("locations/core/core_hints.json")
+    Tracker:AddLocations("locations/farewell/farewell_hints.json")
+end

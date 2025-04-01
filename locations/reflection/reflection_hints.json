@@ -1,0 +1,143 @@
+[
+  {
+    "name": "A Reflection Hints",
+    "access_rules":["{}"],
+    "children": [
+      {
+        "name": "Reflection A-Side Hints",
+        "sections": 
+        [
+          {
+            "name": "Crystal Heart Hint",
+            "chest_unopened_img": "images/items/items/blue_heart.png",
+            "chest_opened_img": "images/items/items/blue_heart2.png",
+            "visibility_rules": ["reflection_a_heart"]
+          },
+          {
+            "name": "Cassette Hint",
+            "chest_unopened_img": "images/items/items/cassette.png",
+            "chest_opened_img": "images/items/items/cassette2.png",
+            "visibility_rules": ["reflection_cassette"]
+          },
+          {
+            "name": "Level Complete Hint",
+            "chest_unopened_img": "images/items/items/complete.png",
+            "chest_opened_img": "images/items/items/complete2.png",
+            "visibility_rules": ["reflection_a_complete"]
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "celeste_chapter_select",
+            "x": 779,
+            "y": 163
+          }
+        ]
+      },
+      {
+        "name": "Reflection B-Side Hints",
+        "sections": 
+        [
+          {
+            "name": "Crystal Heart Hint",
+            "chest_unopened_img": "images/items/items/red_heart.png",
+            "chest_opened_img": "images/items/items/red_heart2.png",
+            "visibility_rules": ["reflection_b_heart"]
+          },
+          {
+            "name": "Level Complete Hint",
+            "chest_unopened_img": "images/items/items/complete.png",
+            "chest_opened_img": "images/items/items/complete2.png",
+            "visibility_rules": ["reflection_b_complete"]
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "celeste_chapter_select",
+            "x": 779,
+            "y": 269
+          }
+        ]
+      },
+      {
+        "name": "Reflection C-Side Hints",
+        "sections": 
+        [
+          {
+            "name": "Crystal Heart Hint",
+            "chest_unopened_img": "images/items/items/yellow_heart.png",
+            "chest_opened_img": "images/items/items/yellow_heart2.png",
+            "visibility_rules": ["reflection_c_heart"]
+          },
+          {
+            "name": "Level Complete Hint",
+            "chest_unopened_img": "images/items/items/complete.png",
+            "chest_opened_img": "images/items/items/complete2.png",
+            "visibility_rules": ["reflection_c_complete"]
+          }
+        ],
+        "map_locations": 
+        [
+          {
+            "map": "celeste_chapter_select",
+            "x": 779,
+            "y": 329
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Crystal Heart Hint​",
+            "chest_unopened_img": "images/items/items/blue_heart.png",
+            "chest_opened_img": "images/items/items/blue_heart2.png",
+            "visibility_rules": ["reflection_a_heart"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "reflection_hollows",
+            "x": 426,
+            "y": 327
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Cassette Hint​",
+            "chest_unopened_img": "images/items/items/cassette.png",
+            "chest_opened_img": "images/items/items/cassette2.png",
+            "visibility_rules": ["reflection_cassette"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "reflection_hollows",
+            "x": 67,
+            "y": 1120
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Level Complete Hint​",
+            "chest_unopened_img": "images/items/items/complete.png",
+            "chest_opened_img": "images/items/items/complete2.png",
+            "visibility_rules": ["reflection_a_complete"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "reflection_hollows",
+            "x": 1475,
+            "y": 855
+          }
+        ]
+      }
+    ]
+  }      
+]

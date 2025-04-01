@@ -1,285 +1,330 @@
 [
   {
-    "name": "Summit",
+    "name": "A Summit Hints",
     "chest_unopened_img": "images/items/items/berry.png",
     "chest_opened_img": "images/items/items/berry2.png",
+    "access_rules":["{}"],
     "children": [
       {
-        "name": "Summit A-Side - Start",
-        "access_rules": ["$SUMMIT"],
+        "name": "Summit A-Side - Start Hints",
         "sections": 
         [
           {
-            "name": "Strawberry 1"
+            "name": "Strawberry 1 Hint",
+            "visibility_rules": ["summit_strawberry_1"]
           },
           {
-            "name": "Strawberry 2"
+            "name": "Strawberry 2 Hint",
+            "visibility_rules": ["summit_strawberry_2"]
           },
           {
-            "name": "Strawberry 3"
+            "name": "Strawberry 3 Hint",
+            "visibility_rules": ["summit_strawberry_3"]
           },
           {
-            "name": "Strawberry 4"
+            "name": "Strawberry 4 Hint",
+            "visibility_rules": ["summit_strawberry_4"]
           }
         ],
         "map_locations": 
         [
           {
             "map": "celeste_chapter_select",
-            "x": 851,
+            "x": 841,
             "y": 140
           }
         ]
       },
       {
-        "name": "Summit A-Side - 500 M",
-        "access_rules": ["$SUMMIT"],
+        "name": "Summit A-Side - 500 M Hints",
         "sections": 
         [
           {
-            "name": "Strawberry 5"
+            "name": "Strawberry 5 Hint",
+            "visibility_rules": ["summit_strawberry_5"]
           },
           {
-            "name": "Strawberry 6"
+            "name": "Strawberry 6 Hint",
+            "visibility_rules": ["summit_strawberry_6"]
           },
           {
-            "name": "Strawberry 7"
+            "name": "Strawberry 7 Hint",
+            "visibility_rules": ["summit_strawberry_7"]
           },
           {
-            "name": "Strawberry 8"
+            "name": "Strawberry 8 Hint",
+            "visibility_rules": ["summit_strawberry_8"]
           },
           {
-            "name": "Strawberry 9"
+            "name": "Strawberry 9 Hint",
+            "visibility_rules": ["summit_strawberry_/"]
           },
           {
-            "name": "Strawberry 10"
+            "name": "Strawberry 10 Hint",
+            "visibility_rules": ["summit_strawberry_10"]
           }
         ],
         "map_locations": 
         [
           {
             "map": "celeste_chapter_select",
-            "x": 885,
+            "x": 895,
             "y": 140
           }
         ]
       },
       {
-        "name": "Summit A-Side - 1000 M",
-        "access_rules": ["$SUMMIT"],
+        "name": "Summit A-Side - 1000 M Hints",
         "sections": 
         [
           {
-            "name": "Strawberry 11"
+            "name": "Strawberry 11 Hint",
+            "visibility_rules": ["summit_strawberry_11"]
           },
           {
-            "name": "Strawberry 12"
+            "name": "Strawberry 12 Hint",
+            "visibility_rules": ["summit_strawberry_12"]
           },
           {
-            "name": "Strawberry 13"
+            "name": "Strawberry 13 Hint",
+            "visibility_rules": ["summit_strawberry_13"]
           },
           {
-            "name": "Strawberry 14"
+            "name": "Strawberry 14 Hint",
+            "visibility_rules": ["summit_strawberry_14"]
           },
           {
-            "name": "Strawberry 15"
+            "name": "Strawberry 15 Hint",
+            "visibility_rules": ["summit_strawberry_15"]
           },
           {
-            "name": "Strawberry 16"
+            "name": "Strawberry 16 Hint",
+            "visibility_rules": ["summit_strawberry_16"]
           }
         ],
         "map_locations": 
         [
           {
             "map": "celeste_chapter_select",
-            "x": 851,
+            "x": 841,
             "y": 173
           }
         ]
       },
       {
-        "name": "Summit A-Side - 1500 M",
-        "access_rules": ["$SUMMIT"],
+        "name": "Summit A-Side - 1500 M Hints",
         "sections": 
         [
           {
-            "name": "Strawberry 17"
+            "name": "Strawberry 17 Hint",
+            "visibility_rules": ["summit_strawberry_17"]
           },
           {
-            "name": "Strawberry 18"
+            "name": "Strawberry 18 Hint",
+            "visibility_rules": ["summit_strawberry_18"]
           },
           {
-            "name": "Strawberry 19"
+            "name": "Strawberry 19 Hint",
+            "visibility_rules": ["summit_strawberry_19"]
           },
           {
-            "name": "Strawberry 20"
+            "name": "Strawberry 20 Hint",
+            "visibility_rules": ["summit_strawberry_20"]
           },
           {
-            "name": "Strawberry 21"
+            "name": "Strawberry 21 Hint",
+            "visibility_rules": ["summit_strawberry_21"]
           },
           {
-            "name": "Strawberry 22"
+            "name": "Strawberry 22 Hint",
+            "visibility_rules": ["summit_strawberry_22"]
           },
           {
-            "name": "Strawberry 23"
+            "name": "Strawberry 23 Hint",
+            "visibility_rules": ["summit_strawberry_23"]
           },
           {
-            "name": "Strawberry 24"
+            "name": "Strawberry 24 Hint",
+            "visibility_rules": ["summit_strawberry_24"]
           },
           {
-            "name": "Cassette",
+            "name": "Cassette Hint",
             "chest_unopened_img": "images/items/items/cassette.png",
-            "chest_opened_img": "images/items/items/cassette2.png"
+            "chest_opened_img": "images/items/items/cassette2.png",
+            "visibility_rules": ["summit_cassette"]
           }
         ],
         "map_locations": 
         [
           {
             "map": "celeste_chapter_select",
-            "x": 885,
+            "x": 895,
             "y": 173
           }
         ]
       },
       {
-        "name": "Summit A-Side - 2000 M",
-        "access_rules": ["$SUMMIT"],
+        "name": "Summit A-Side - 2000 M Hints",
         "sections": 
         [
           {
-            "name": "Strawberry 25"
+            "name": "Strawberry 25 Hint",
+            "visibility_rules": ["summit_strawberry_25"]
           },
           {
-            "name": "Strawberry 26"
+            "name": "Strawberry 26 Hint",
+            "visibility_rules": ["summit_strawberry_26"]
           },
           {
-            "name": "Strawberry 27"
+            "name": "Strawberry 27 Hint",
+            "visibility_rules": ["summit_strawberry_27"]
           },
           {
-            "name": "Strawberry 28"
+            "name": "Strawberry 28 Hint",
+            "visibility_rules": ["summit_strawberry_28"]
           },
           {
-            "name": "Strawberry 29"
+            "name": "Strawberry 29 Hint",
+            "visibility_rules": ["summit_strawberry_29"]
           },
           {
-            "name": "Strawberry 30"
+            "name": "Strawberry 30 Hint",
+            "visibility_rules": ["summit_strawberry_30"]
           },
           {
-            "name": "Strawberry 31"
+            "name": "Strawberry 31 Hint",
+            "visibility_rules": ["summit_strawberry_31"]
           },
           {
-            "name": "Strawberry 32"
+            "name": "Strawberry 32 Hint",
+            "visibility_rules": ["summit_strawberry_32"]
           }
         ],
         "map_locations": 
         [
           {
             "map": "celeste_chapter_select",
-            "x": 851,
+            "x": 841,
             "y": 206
           }
         ]
       },
       {
-        "name": "Summit A-Side - 2500 M",
-        "access_rules": ["$SUMMIT"],
+        "name": "Summit A-Side - 2500 M Hints",
         "sections": 
         [
           {
-            "name": "Strawberry 33"
+            "name": "Strawberry 33 Hint",
+            "visibility_rules": ["summit_strawberry_33"]
           },
           {
-            "name": "Strawberry 34"
+            "name": "Strawberry 34 Hint",
+            "visibility_rules": ["summit_strawberry_34"]
           },
           {
-            "name": "Strawberry 35"
+            "name": "Strawberry 35 Hint",
+            "visibility_rules": ["summit_strawberry_35"]
           },
           {
-            "name": "Strawberry 36"
+            "name": "Strawberry 36 Hint",
+            "visibility_rules": ["summit_strawberry_36"]
           },
           {
-            "name": "Strawberry 37"
+            "name": "Strawberry 37 Hint",
+            "visibility_rules": ["summit_strawberry_37"]
           },
           {
-            "name": "Strawberry 38"
+            "name": "Strawberry 38 Hint",
+            "visibility_rules": ["summit_strawberry_38"]
           },
           {
-            "name": "Strawberry 39"
+            "name": "Strawberry 39 Hint",
+            "visibility_rules": ["summit_strawberry_39"]
           },
           {
-            "name": "Strawberry 40"
+            "name": "Strawberry 40 Hint",
+            "visibility_rules": ["summit_strawberry_40"]
           }
         ],
         "map_locations": 
         [
           {
             "map": "celeste_chapter_select",
-            "x": 885,
+            "x": 895,
             "y": 206
           }
         ]
       },
       {
-        "name": "Summit A-Side - 3000 M",
-        "access_rules": ["$SUMMIT"],
+        "name": "Summit A-Side - 3000 M Hints",
         "sections": 
         [
           {
-            "name": "Strawberry 41"
+            "name": "Strawberry 41 Hint",
+            "visibility_rules": ["summit_strawberry_41"]
           },
           {
-            "name": "Strawberry 42"
+            "name": "Strawberry 42 Hint",
+            "visibility_rules": ["summit_strawberry_42"]
           },
           {
-            "name": "Strawberry 43"
+            "name": "Strawberry 43 Hint",
+            "visibility_rules": ["summit_strawberry_43"]
           },
           {
-            "name": "Strawberry 44"
+            "name": "Strawberry 44 Hint",
+            "visibility_rules": ["summit_strawberry_44"]
           },
           {
-            "name": "Strawberry 45"
+            "name": "Strawberry 45 Hint",
+            "visibility_rules": ["summit_strawberry_45"]
           },
           {
-            "name": "Strawberry 46"
+            "name": "Strawberry 46 Hint",
+            "visibility_rules": ["summit_strawberry_46"]
           },
           {
-            "name": "Strawberry 47"
+            "name": "Strawberry 47 Hint",
+            "visibility_rules": ["summit_strawberry_47"]
           },
           {
-            "name": "Crystal Heart",
+            "name": "Crystal Heart Hint",
             "chest_unopened_img": "images/items/items/blue_heart.png",
-            "chest_opened_img": "images/items/items/blue_heart2.png"
+            "chest_opened_img": "images/items/items/blue_heart2.png",
+            "visibility_rules": ["summit_a_heart"]
           },
           {
-            "name": "Level Complete",
+            "name": "Level Complete Hint",
             "chest_unopened_img": "images/items/items/complete.png",
-            "chest_opened_img": "images/items/items/complete2.png"
+            "chest_opened_img": "images/items/items/complete2.png",
+            "visibility_rules": ["summit_a_complete"]
           }
         ],
         "map_locations": 
         [
           {
             "map": "celeste_chapter_select",
-            "x": 868,
+            "x": 858,
             "y": 239
           }
         ]
       },
       {
-        "name": "Summit B-Side",
-        "visibility_rules": ["$SUMMITBVIS"],
-        "access_rules": ["$SUMMITB"],
+        "name": "Summit B-Side Hints",
+        "visibility_rules": ["summit_b","summit_c","core","core_b","core_c","farewell"],
         "sections": 
         [
           {
-            "name": "Crystal Heart",
+            "name": "Crystal Heart Hint",
             "chest_unopened_img": "images/items/items/red_heart.png",
-            "chest_opened_img": "images/items/items/red_heart2.png"
+            "chest_opened_img": "images/items/items/red_heart2.png",
+            "visibility_rules": ["summit_b_heart"]
           },
           {
-            "name": "Level Complete",
+            "name": "Level Complete Hint",
             "chest_unopened_img": "images/items/items/complete.png",
-            "chest_opened_img": "images/items/items/complete2.png"
+            "chest_opened_img": "images/items/items/complete2.png",
+            "visibility_rules": ["summit_b_complete"]
           }
         ],
         "map_locations": 
@@ -287,25 +332,26 @@
           {
             "map": "celeste_chapter_select",
             "x": 868,
-            "y": 279
+            "y": 269
           }
         ]
       },
       {
-        "name": "Summit C-Side",
-        "visibility_rules": ["$SUMMITCVIS"],
-        "access_rules": ["$SUMMITC"],
+        "name": "Summit C-Side Hints",
+        "visibility_rules": ["summit_c","core","core_b","core_c","farewell"],
         "sections": 
         [
           {
-            "name": "Crystal Heart",
+            "name": "Crystal Heart Hint",
             "chest_unopened_img": "images/items/items/yellow_heart.png",
-            "chest_opened_img": "images/items/items/yellow_heart2.png"
+            "chest_opened_img": "images/items/items/yellow_heart2.png",
+            "visibility_rules": ["summit_c_heart"]
           },
           {
-            "name": "Level Complete",
+            "name": "Level Complete Hint",
             "chest_unopened_img": "images/items/items/complete.png",
-            "chest_opened_img": "images/items/items/complete2.png"
+            "chest_opened_img": "images/items/items/complete2.png",
+            "visibility_rules": ["summit_c_complete"]
           }
         ],
         "map_locations": 
@@ -313,26 +359,21 @@
           {
             "map": "celeste_chapter_select",
             "x": 868,
-            "y": 319
+            "y": 329
           }
         ]
-      }             
-    ]
-  },
-  {
-    "name": "Summit-Start",
-    "children": [
+      },
       {
         "sections": [
           {
-            "name": "Strawberry 1​",
-            "ref": "Summit/Summit A-Side - Start/Strawberry 1"
+            "name": "Strawberry 1 Hint​",
+            "visibility_rules": ["summit_strawberry_1"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_start",
-            "x": 1096,
+            "x": 1066,
             "y": 928
           }
         ]
@@ -340,14 +381,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 2​",
-            "ref": "Summit/Summit A-Side - Start/Strawberry 2"
+            "name": "Strawberry 2 Hint​",
+            "visibility_rules": ["summit_strawberry_2"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_start",
-            "x": 2071,
+            "x": 2101,
             "y": 640
           }
         ]
@@ -355,14 +396,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 3​",
-            "ref": "Summit/Summit A-Side - Start/Strawberry 3"
+            "name": "Strawberry 3 Hint​",
+            "visibility_rules": ["summit_strawberry_3"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_start",
-            "x": 2263,
+            "x": 2233,
             "y": 687
           }
         ]
@@ -370,34 +411,29 @@
       {
         "sections": [
           {
-            "name": "Strawberry 4​",
-            "ref": "Summit/Summit A-Side - Start/Strawberry 4"
+            "name": "Strawberry 4 Hint​",
+            "visibility_rules": ["summit_strawberry_4"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_start",
-            "x": 2735,
+            "x": 2705,
             "y": 679
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Summit-500 M​",
-    "children": [
+      },
       {
         "sections": [
           {
-            "name": "Strawberry 5​",
-            "ref": "Summit/Summit A-Side - 500 M/Strawberry 5"
+            "name": "Strawberry 5 Hint​",
+            "visibility_rules": ["summit_strawberry_5"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_500_m",
-            "x": 767,
+            "x": 807,
             "y": 2080
           }
         ]
@@ -405,14 +441,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 6​",
-            "ref": "Summit/Summit A-Side - 500 M/Strawberry 6"
+            "name": "Strawberry 6 Hint​",
+            "visibility_rules": ["summit_strawberry_6"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_500_m",
-            "x": 592,
+            "x": 552,
             "y": 1479
           }
         ]
@@ -420,14 +456,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 7​",
-            "ref": "Summit/Summit A-Side - 500 M/Strawberry 7"
+            "name": "Strawberry 7 Hint​",
+            "visibility_rules": ["summit_strawberry_7"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_500_m",
-            "x": 31,
+            "x": 71,
             "y": 1503
           }
         ]
@@ -435,14 +471,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 8​",
-            "ref": "Summit/Summit A-Side - 500 M/Strawberry 8"
+            "name": "Strawberry 8 Hint​",
+            "visibility_rules": ["summit_strawberry_8"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_500_m",
-            "x": 1472,
+            "x": 1432,
             "y": 1832
           }
         ]
@@ -450,14 +486,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 9​",
-            "ref": "Summit/Summit A-Side - 500 M/Strawberry 9"
+            "name": "Strawberry 9 Hint​",
+            "visibility_rules": ["summit_strawberry_9"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_500_m",
-            "x": 2563,
+            "x": 2523,
             "y": 1127
           }
         ]
@@ -465,34 +501,29 @@
       {
         "sections": [
           {
-            "name": "Strawberry 10​",
-            "ref": "Summit/Summit A-Side - 500 M/Strawberry 10"
+            "name": "Strawberry 10 Hint​",
+            "visibility_rules": ["summit_strawberry_10"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_500_m",
-            "x": 3192,
+            "x": 3152,
             "y": 631
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Summit-1000 M​",
-    "children": [
+      },
       {
         "sections": [
           {
-            "name": "Strawberry 11​",
-            "ref": "Summit/Summit A-Side - 1000 M/Strawberry 11"
+            "name": "Strawberry 11 Hint​",
+            "visibility_rules": ["summit_strawberry_11"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1000_m",
-            "x": 575,
+            "x": 625,
             "y": 1847
           }
         ]
@@ -500,14 +531,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 12​",
-            "ref": "Summit/Summit A-Side - 1000 M/Strawberry 12"
+            "name": "Strawberry 12 Hint​",
+            "visibility_rules": ["summit_strawberry_12"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1000_m",
-            "x": 2783,
+            "x": 2733,
             "y": 1575
           }
         ]
@@ -515,14 +546,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 13​",
-            "ref": "Summit/Summit A-Side - 1000 M/Strawberry 13"
+            "name": "Strawberry 13 Hint​",
+            "visibility_rules": ["summit_strawberry_13"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1000_m",
-            "x": 2359,
+            "x": 2409,
             "y": 1519
           }
         ]
@@ -530,14 +561,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 14​",
-            "ref": "Summit/Summit A-Side - 1000 M/Strawberry 14"
+            "name": "Strawberry 14 Hint​",
+            "visibility_rules": ["summit_strawberry_14"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1000_m",
-            "x": 2016,
+            "x": 1966,
             "y": 919
           }
         ]
@@ -545,14 +576,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 15​",
-            "ref": "Summit/Summit A-Side - 1000 M/Strawberry 15"
+            "name": "Strawberry 15 Hint​",
+            "visibility_rules": ["summit_strawberry_15"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1000_m",
-            "x": 3416,
+            "x": 3366,
             "y": 911
           }
         ]
@@ -560,34 +591,29 @@
       {
         "sections": [
           {
-            "name": "Strawberry 16​",
-            "ref": "Summit/Summit A-Side - 1000 M/Strawberry 16"
+            "name": "Strawberry 16 Hint​",
+            "visibility_rules": ["summit_strawberry_16"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1000_m",
-            "x": 4304,
+            "x": 4254,
             "y": 568
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Summit-1500 M​",
-    "children": [
+      },
       {
         "sections": [
           {
-            "name": "Strawberry 17​",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 17"
+            "name": "Strawberry 17 Hint​",
+            "visibility_rules": ["summit_strawberry_17"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1500_m",
-            "x": 279,
+            "x": 249,
             "y": 1072
           }
         ]
@@ -595,14 +621,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 18​",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 18"
+            "name": "Strawberry 18 Hint​",
+            "visibility_rules": ["summit_strawberry_18"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1500_m",
-            "x": 791,
+            "x": 821,
             "y": 1152
           }
         ]
@@ -610,14 +636,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 19​",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 19"
+            "name": "Strawberry 19 Hint​",
+            "visibility_rules": ["summit_strawberry_19"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1500_m",
-            "x": 1027,
+            "x": 997,
             "y": 1288
           }
         ]
@@ -625,14 +651,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 20​",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 20"
+            "name": "Strawberry 20 Hint​",
+            "visibility_rules": ["summit_strawberry_20"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1500_m",
-            "x": 1783,
+            "x": 1753,
             "y": 1000
           }
         ]
@@ -640,14 +666,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 21​",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 21"
+            "name": "Strawberry 21 Hint​",
+            "visibility_rules": ["summit_strawberry_21"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1500_m",
-            "x": 2567,
+            "x": 2537,
             "y": 920
           }
         ]
@@ -655,14 +681,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 22​",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 22"
+            "name": "Strawberry 22 Hint​",
+            "visibility_rules": ["summit_strawberry_22"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1500_m",
-            "x": 3247,
+            "x": 3277,
             "y": 791
           }
         ]
@@ -670,14 +696,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 23​",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 23"
+            "name": "Strawberry 23 Hint​",
+            "visibility_rules": ["summit_strawberry_23"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1500_m",
-            "x": 4191,
+            "x": 4161,
             "y": 991
           }
         ]
@@ -685,14 +711,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 24​",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 24"
+            "name": "Strawberry 24 Hint​",
+            "visibility_rules": ["summit_strawberry_24"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1500_m",
-            "x": 4615,
+            "x": 4585,
             "y": 815
           }
         ]
@@ -700,34 +726,31 @@
       {
         "sections": [
           {
-            "name": "Cassette​",
-            "ref": "Summit/Summit A-Side - 1500 M/Cassette"
+            "name": "Cassette Hint​",
+            "chest_unopened_img": "images/items/items/cassette.png",
+            "chest_opened_img": "images/items/items/cassette2.png",
+            "visibility_rules": ["summit_cassette"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_1500_m",
-            "x": 2471,
+            "x": 2441,
             "y": 712
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Summit-2000 M​",
-    "children": [
+      },
       {
         "sections": [
           {
-            "name": "Strawberry 25​",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 25"
+            "name": "Strawberry 25 Hint​",
+            "visibility_rules": ["summit_strawberry_25"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2000_m",
-            "x": 1407,
+            "x": 1357,
             "y": 2512
           }
         ]
@@ -735,14 +758,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 26​",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 26"
+            "name": "Strawberry 26 Hint​",
+            "visibility_rules": ["summit_strawberry_26"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2000_m",
-            "x": 3239,
+            "x": 3189,
             "y": 2496
           }
         ]
@@ -750,14 +773,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 27​",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 27"
+            "name": "Strawberry 27 Hint​",
+            "visibility_rules": ["summit_strawberry_27"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2000_m",
-            "x": 4363,
+            "x": 4413,
             "y": 1804
           }
         ]
@@ -765,14 +788,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 28​",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 28"
+            "name": "Strawberry 28 Hint​",
+            "visibility_rules": ["summit_strawberry_28"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2000_m",
-            "x": 4015,
+            "x": 4065,
             "y": 1472
           }
         ]
@@ -780,14 +803,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 29​",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 29"
+            "name": "Strawberry 29 Hint​",
+            "visibility_rules": ["summit_strawberry_29"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2000_m",
-            "x": 4407,
+            "x": 4357,
             "y": 1040
           }
         ]
@@ -795,14 +818,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 30​",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 30"
+            "name": "Strawberry 30 Hint​",
+            "visibility_rules": ["summit_strawberry_30"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2000_m",
-            "x": 4711,
+            "x": 4661,
             "y": 1343
           }
         ]
@@ -810,14 +833,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 31​",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 31"
+            "name": "Strawberry 31 Hint​",
+            "visibility_rules": ["summit_strawberry_31"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2000_m",
-            "x": 5239,
+            "x": 5189,
             "y": 1523
           }
         ]
@@ -825,34 +848,29 @@
       {
         "sections": [
           {
-            "name": "Strawberry 32​",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 32"
+            "name": "Strawberry 32 Hint​",
+            "visibility_rules": ["summit_strawberry_32"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2000_m",
-            "x": 6551,
+            "x": 6501,
             "y": 640
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Summit-2500 M​",
-    "children": [
+      },
       {
         "sections": [
           {
-            "name": "Strawberry 33​",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 33"
+            "name": "Strawberry 33 Hint​",
+            "visibility_rules": ["summit_strawberry_33"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2500_m",
-            "x": 39,
+            "x": 79,
             "y": 1751
           }
         ]
@@ -860,14 +878,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 34​",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 34"
+            "name": "Strawberry 34 Hint​",
+            "visibility_rules": ["summit_strawberry_34"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2500_m",
-            "x": 1135,
+            "x": 1175,
             "y": 1968
           }
         ]
@@ -875,14 +893,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 35​",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 35"
+            "name": "Strawberry 35 Hint​",
+            "visibility_rules": ["summit_strawberry_35"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2500_m",
-            "x": 3263,
+            "x": 3303,
             "y": 1623
           }
         ]
@@ -890,14 +908,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 36​",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 36"
+            "name": "Strawberry 36 Hint​",
+            "visibility_rules": ["summit_strawberry_36"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2500_m",
-            "x": 3879,
+            "x": 3839,
             "y": 1648
           }
         ]
@@ -905,14 +923,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 37​",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 37"
+            "name": "Strawberry 37 Hint​",
+            "visibility_rules": ["summit_strawberry_37"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2500_m",
-            "x": 5032,
+            "x": 4992,
             "y": 1704
           }
         ]
@@ -920,14 +938,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 38​",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 38"
+            "name": "Strawberry 38 Hint​",
+            "visibility_rules": ["summit_strawberry_38"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2500_m",
-            "x": 5959,
+            "x": 5919,
             "y": 1216
           }
         ]
@@ -935,14 +953,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 39​",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 39"
+            "name": "Strawberry 39 Hint​",
+            "visibility_rules": ["summit_strawberry_39"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2500_m",
-            "x": 6047,
+            "x": 6007,
             "y": 720
           }
         ]
@@ -950,34 +968,29 @@
       {
         "sections": [
           {
-            "name": "Strawberry 40​",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 40"
+            "name": "Strawberry 40 Hint​",
+            "visibility_rules": ["summit_strawberry_40"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_2500_m",
-            "x": 5807,
+            "x": 5847,
             "y": 720
           }
         ]
-      }
-    ]
-  },
-  {
-    "name": "Summit-3000 M​",
-    "children": [
+      },
       {
         "sections": [
           {
-            "name": "Strawberry 41​",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 41"
+            "name": "Strawberry 41 Hint​",
+            "visibility_rules": ["summit_strawberry_41"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_3000_m_1",
-            "x": 567,
+            "x": 667,
             "y": 3185
           }
         ]
@@ -985,14 +998,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 42​",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 42"
+            "name": "Strawberry 42 Hint​",
+            "visibility_rules": ["summit_strawberry_42"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_3000_m_1",
-            "x": 583,
+            "x": 683,
             "y": 2720
           }
         ]
@@ -1000,14 +1013,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 43​",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 43"
+            "name": "Strawberry 43 Hint​",
+            "visibility_rules": ["summit_strawberry_43"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_3000_m_1",
-            "x": 663,
+            "x": 563,
             "y": 1993
           }
         ]
@@ -1015,14 +1028,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 44​",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 44"
+            "name": "Strawberry 44 Hint​",
+            "visibility_rules": ["summit_strawberry_44"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_3000_m_1",
-            "x": 71,
+            "x": 171,
             "y": 81
           }
         ]
@@ -1030,14 +1043,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 45​",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 45"
+            "name": "Strawberry 45 Hint​",
+            "visibility_rules": ["summit_strawberry_45"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_3000_m_2",
-            "x": 712,
+            "x": 812,
             "y": 6888
           }
         ]
@@ -1045,14 +1058,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 46​",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 46"
+            "name": "Strawberry 46 Hint​",
+            "visibility_rules": ["summit_strawberry_46"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_3000_m_2",
-            "x": 416,
+            "x": 316,
             "y": 6712
           }
         ]
@@ -1060,14 +1073,14 @@
       {
         "sections": [
           {
-            "name": "Strawberry 47​",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 47"
+            "name": "Strawberry 47 Hint​",
+            "visibility_rules": ["summit_strawberry_47"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_3000_m_2",
-            "x": 1168,
+            "x": 1068,
             "y": 2680
           }
         ]
@@ -1075,14 +1088,16 @@
       {
         "sections": [
           {
-            "name": "Crystal Heart​",
-            "ref": "Summit/Summit A-Side - 3000 M/Crystal Heart"
+            "name": "Crystal Heart Hint​",
+            "chest_unopened_img": "images/items/items/blue_heart.png",
+            "chest_opened_img": "images/items/items/blue_heart2.png",
+            "visibility_rules": ["summit_a_heart"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_3000_m_1",
-            "x": 720,
+            "x": 620,
             "y": 3583
           }
         ]
@@ -1090,14 +1105,16 @@
       {
         "sections": [
           {
-            "name": "Level Complete​",
-            "ref": "Summit/Summit A-Side - 3000 M/Level Complete"
+            "name": "Level Complete Hint​",
+            "chest_unopened_img": "images/items/items/complete.png",
+            "chest_opened_img": "images/items/items/complete2.png",
+            "visibility_rules": ["summit_a_complete"]
           }
         ],
         "map_locations": [
           {
             "map": "summit_3000_m_2",
-            "x": 2247,
+            "x": 2147,
             "y": 320
           }
         ]

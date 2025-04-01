@@ -1,0 +1,5 @@
+Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/labels.json")
+Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/auto_tab.json")
+Tracker:AddItems("items/hints.json")

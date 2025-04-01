@@ -1,0 +1,1237 @@
+[
+    {
+        "name": "City A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/blue_heart.png",
+        "codes": "city_a_heart"
+    },
+    {
+        "name": "Old Site A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/blue_heart.png",
+        "codes": "old_site_a_heart"
+    },
+    {
+        "name": "Hotel A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/blue_heart.png",
+        "codes": "hotel_a_heart"
+    },
+    {
+        "name": "Ridge A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/blue_heart.png",
+        "codes": "ridge_a_heart"
+    },
+    {
+        "name": "Mirror Temple A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/blue_heart.png",
+        "codes": "mirror_temple_a_heart"
+    },
+    {
+        "name": "Reflection A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/blue_heart.png",
+        "codes": "reflection_a_heart"
+    },
+    {
+        "name": "Summit A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/blue_heart.png",
+        "codes": "summit_a_heart"
+    },
+    {
+        "name": "Core A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/blue_heart.png",
+        "codes": "core_a_heart"
+    },
+    {
+        "name": "City B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/red_heart.png",
+        "codes": "city_b_heart"
+    },
+    {
+        "name": "Old Site B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/red_heart.png",
+        "codes": "old_site_b_heart"
+    },
+    {
+        "name": "Hotel B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/red_heart.png",
+        "codes": "hotel_b_heart"
+    },
+    {
+        "name": "Ridge B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/red_heart.png",
+        "codes": "ridge_b_heart"
+    },
+    {
+        "name": "Mirror Temple B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/red_heart.png",
+        "codes": "mirror_temple_b_heart"
+    },
+    {
+        "name": "Reflection B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/red_heart.png",
+        "codes": "reflection_b_heart"
+    },
+    {
+        "name": "Summit B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/red_heart.png",
+        "codes": "summit_b_heart"
+    },
+    {
+        "name": "Core B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/red_heart.png",
+        "codes": "core_b_heart"
+    },
+    {
+        "name": "City C-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/yellow_heart.png",
+        "codes": "city_c_heart"
+    },
+    {
+        "name": "Old Site C-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/yellow_heart.png",
+        "codes": "old_site_c_heart"
+    },
+    {
+        "name": "Hotel C-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/yellow_heart.png",
+        "codes": "hotel_c_heart"
+    },
+    {
+        "name": "Ridge C-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/yellow_heart.png",
+        "codes": "ridge_c_heart"
+    },
+    {
+        "name": "Mirror Temple C-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/yellow_heart.png",
+        "codes": "mirror_temple_c_heart"
+    },
+    {
+        "name": "Reflection C-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/yellow_heart.png",
+        "codes": "reflection_c_heart"
+    },
+    {
+        "name": "Summit C-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/yellow_heart.png",
+        "codes": "summit_c_heart"
+    },
+    {
+        "name": "Core C-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/items/yellow_heart.png",
+        "codes": "core_c_heart"
+    },
+    {
+        "name": "City Cassette",
+        "type": "toggle",
+        "img": "images/items/items/cassette.png",
+        "codes": "city_cassette"
+    },
+    {
+        "name": "Old Site Cassette",
+        "type": "toggle",
+        "img": "images/items/items/cassette.png",
+        "codes": "old_site_cassette"
+    },
+    {
+        "name": "Hotel Cassette",
+        "type": "toggle",
+        "img": "images/items/items/cassette.png",
+        "codes": "hotel_cassette"
+    },
+    {
+        "name": "Ridge Cassette",
+        "type": "toggle",
+        "img": "images/items/items/cassette.png",
+        "codes": "ridge_cassette"
+    },
+    {
+        "name": "Mirror Temple Cassette",
+        "type": "toggle",
+        "img": "images/items/items/cassette.png",
+        "codes": "mirror_temple_cassette"
+    },
+    {
+        "name": "Reflection Cassette",
+        "type": "toggle",
+        "img": "images/items/items/cassette.png",
+        "codes": "reflection_cassette"
+    },
+    {
+        "name": "Summit Cassette",
+        "type": "toggle",
+        "img": "images/items/items/cassette.png",
+        "codes": "summit_cassette"
+    },
+    {
+        "name": "Core Cassette",
+        "type": "toggle",
+        "img": "images/items/items/cassette.png",
+        "codes": "core_cassette"
+    },
+    {
+        "name": "City A-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "city_a_complete"
+    },
+    {
+        "name": "Ridge A-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "old_site_a_complete"
+    },
+    {
+        "name": "Hotel A-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "hotel_a_complete"
+    },
+    {
+        "name": "Ridge A-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "ridge_a_complete"
+    },
+    {
+        "name": "Mirror Temple A-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "mirror_temple_a_complete"
+    },
+    {
+        "name": "Reflection A-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "reflection_a_complete"
+    },
+    {
+        "name": "Summit A-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "summit_a_complete"
+    },
+    {
+        "name": "Epilogue Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "epilogue_complete"
+    },
+    {
+        "name": "Core A-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "core_a_complete"
+    },
+    {
+        "name": "Farewell A-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "farewell_complete"
+    },
+    {
+        "name": "City B-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "city_b_complete"
+    },
+    {
+        "name": "Old Site B-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "old_site_b_complete"
+    },
+    {
+        "name": "Hotel B-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "hotel_b_complete"
+    },
+    {
+        "name": "Ridge B-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "ridge_b_complete"
+    },
+    {
+        "name": "Mirror Temple B-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "mirror_temple_b_complete"
+    },
+    {
+        "name": "Reflection B-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "reflection_b_complete"
+    },
+    {
+        "name": "Summit B-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "summit_b_complete"
+    },
+    {
+        "name": "Epilogue B-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "epilogue_b_complete"
+    },
+    {
+        "name": "Core B-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "core_b_complete"
+    },
+    {
+        "name": "City C-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "city_c_complete"
+    },
+    {
+        "name": "Old Site C-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "old_site_c_complete"
+    },
+    {
+        "name": "Hotel C-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "hotel_c_complete"
+    },
+    {
+        "name": "Ridge C-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "ridge_c_complete"
+    },
+    {
+        "name": "Mirror Temple C-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "mirror_temple_c_complete"
+    },
+    {
+        "name": "Reflection C-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "reflection_c_complete"
+    },
+    {
+        "name": "Summit C-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "summit_c_complete"
+    },
+    {
+        "name": "Epilogue C-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "epilogue_c_complete"
+    },
+    {
+        "name": "Core C-Side Level Completion",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "codes": "core_c_complete"
+    },
+    {
+        "name": "City Strawberry 1",
+        "type": "toggle",
+        "codes": "city_strawberry_1"
+    },
+    {
+        "name": "City Strawberry 2",
+        "type": "toggle",
+        "codes": "city_strawberry_2"
+    },
+    {
+        "name": "City Strawberry 3",
+        "type": "toggle",
+        "codes": "city_strawberry_3"
+    },
+    {
+        "name": "City Strawberry 4",
+        "type": "toggle",
+        "codes": "city_strawberry_4"
+    },
+    {
+        "name": "City Strawberry 5",
+        "type": "toggle",
+        "codes": "city_strawberry_5"
+    },
+    {
+        "name": "City Strawberry 6",
+        "type": "toggle",
+        "codes": "city_strawberry_6"
+    },
+    {
+        "name": "City Strawberry 7",
+        "type": "toggle",
+        "codes": "city_strawberry_7"
+    },
+    {
+        "name": "City Strawberry 8",
+        "type": "toggle",
+        "codes": "city_strawberry_8"
+    },
+    {
+        "name": "City Strawberry 9",
+        "type": "toggle",
+        "codes": "city_strawberry_9"
+    },
+    {
+        "name": "City Strawberry 10",
+        "type": "toggle",
+        "codes": "city_strawberry_10"
+    },
+    {
+        "name": "City Strawberry 11",
+        "type": "toggle",
+        "codes": "city_strawberry_11"
+    },
+    {
+        "name": "City Strawberry 12",
+        "type": "toggle",
+        "codes": "city_strawberry_12"
+    },
+    {
+        "name": "City Strawberry 13",
+        "type": "toggle",
+        "codes": "city_strawberry_13"
+    },
+    {
+        "name": "City Strawberry 14",
+        "type": "toggle",
+        "codes": "city_strawberry_14"
+    },
+    {
+        "name": "City Strawberry 15",
+        "type": "toggle",
+        "codes": "city_strawberry_15"
+    },
+    {
+        "name": "City Strawberry 16",
+        "type": "toggle",
+        "codes": "city_strawberry_16"
+    },
+    {
+        "name": "City Strawberry 17",
+        "type": "toggle",
+        "codes": "city_strawberry_17"
+    },
+    {
+        "name": "City Strawberry 18",
+        "type": "toggle",
+        "codes": "city_strawberry_18"
+    },
+    {
+        "name": "City Strawberry 19",
+        "type": "toggle",
+        "codes": "city_strawberry_19"
+    },
+    {
+        "name": "City Strawberry 20",
+        "type": "toggle",
+        "codes": "city_strawberry_20"
+    },
+    {
+        "name": "Old Site Strawberry 1",
+        "type": "toggle",
+        "codes": "old_site_strawberry_1"
+    },
+    {
+        "name": "Old Site Strawberry 2",
+        "type": "toggle",
+        "codes": "old_site_strawberry_2"
+    },
+    {
+        "name": "Old Site Strawberry 3",
+        "type": "toggle",
+        "codes": "old_site_strawberry_3"
+    },
+    {
+        "name": "Old Site Strawberry 4",
+        "type": "toggle",
+        "codes": "old_site_strawberry_4"
+    },
+    {
+        "name": "Old Site Strawberry 5",
+        "type": "toggle",
+        "codes": "old_site_strawberry_5"
+    },
+    {
+        "name": "Old Site Strawberry 6",
+        "type": "toggle",
+        "codes": "old_site_strawberry_6"
+    },
+    {
+        "name": "Old Site Strawberry 7",
+        "type": "toggle",
+        "codes": "old_site_strawberry_7"
+    },
+    {
+        "name": "Old Site Strawberry 8",
+        "type": "toggle",
+        "codes": "old_site_strawberry_8"
+    },
+    {
+        "name": "Old Site Strawberry 9",
+        "type": "toggle",
+        "codes": "old_site_strawberry_9"
+    },
+    {
+        "name": "Old Site Strawberry 10",
+        "type": "toggle",
+        "codes": "old_site_strawberry_10"
+    },
+    {
+        "name": "Old Site Strawberry 11",
+        "type": "toggle",
+        "codes": "old_site_strawberry_11"
+    },
+    {
+        "name": "Old Site Strawberry 12",
+        "type": "toggle",
+        "codes": "old_site_strawberry_12"
+    },
+    {
+        "name": "Old Site Strawberry 13",
+        "type": "toggle",
+        "codes": "old_site_strawberry_13"
+    },
+    {
+        "name": "Old Site Strawberry 14",
+        "type": "toggle",
+        "codes": "old_site_strawberry_14"
+    },
+    {
+        "name": "Old Site Strawberry 15",
+        "type": "toggle",
+        "codes": "old_site_strawberry_15"
+    },
+    {
+        "name": "Old Site Strawberry 16",
+        "type": "toggle",
+        "codes": "old_site_strawberry_16"
+    },
+    {
+        "name": "Old Site Strawberry 17",
+        "type": "toggle",
+        "codes": "old_site_strawberry_17"
+    },
+    {
+        "name": "Old Site Strawberry 18",
+        "type": "toggle",
+        "codes": "old_site_strawberry_18"
+    },
+    {
+        "name": "Hotel Strawberry 1",
+        "type": "toggle",
+        "codes": "hotel_strawberry_1"
+    },
+    {
+        "name": "Hotel Strawberry 2",
+        "type": "toggle",
+        "codes": "hotel_strawberry_2"
+    },
+    {
+        "name": "Hotel Strawberry 3",
+        "type": "toggle",
+        "codes": "hotel_strawberry_3"
+    },
+    {
+        "name": "Hotel Strawberry 4",
+        "type": "toggle",
+        "codes": "hotel_strawberry_4"
+    },
+    {
+        "name": "Hotel Strawberry 5",
+        "type": "toggle",
+        "codes": "hotel_strawberry_5"
+    },
+    {
+        "name": "Hotel Strawberry 6",
+        "type": "toggle",
+        "codes": "hotel_strawberry_6"
+    },
+    {
+        "name": "Hotel Strawberry 7",
+        "type": "toggle",
+        "codes": "hotel_strawberry_7"
+    },
+    {
+        "name": "Hotel Strawberry 8",
+        "type": "toggle",
+        "codes": "hotel_strawberry_8"
+    },
+    {
+        "name": "Hotel Strawberry 9",
+        "type": "toggle",
+        "codes": "hotel_strawberry_9"
+    },
+    {
+        "name": "Hotel Strawberry 10",
+        "type": "toggle",
+        "codes": "hotel_strawberry_10"
+    },
+    {
+        "name": "Hotel Strawberry 11",
+        "type": "toggle",
+        "codes": "hotel_strawberry_11"
+    },
+    {
+        "name": "Hotel Strawberry 12",
+        "type": "toggle",
+        "codes": "hotel_strawberry_12"
+    },
+    {
+        "name": "Hotel Strawberry 13",
+        "type": "toggle",
+        "codes": "hotel_strawberry_13"
+    },
+    {
+        "name": "Hotel Strawberry 14",
+        "type": "toggle",
+        "codes": "hotel_strawberry_14"
+    },
+    {
+        "name": "Hotel Strawberry 15",
+        "type": "toggle",
+        "codes": "hotel_strawberry_15"
+    },
+    {
+        "name": "Hotel Strawberry 16",
+        "type": "toggle",
+        "codes": "hotel_strawberry_16"
+    },
+    {
+        "name": "Hotel Strawberry 17",
+        "type": "toggle",
+        "codes": "hotel_strawberry_17"
+    },
+    {
+        "name": "Hotel Strawberry 18",
+        "type": "toggle",
+        "codes": "hotel_strawberry_18"
+    },
+    {
+        "name": "Hotel Strawberry 19",
+        "type": "toggle",
+        "codes": "hotel_strawberry_19"
+    },
+    {
+        "name": "Hotel Strawberry 20",
+        "type": "toggle",
+        "codes": "hotel_strawberry_20"
+    },
+    {
+        "name": "Hotel Strawberry 21",
+        "type": "toggle",
+        "codes": "hotel_strawberry_21"
+    },
+    {
+        "name": "Hotel Strawberry 22",
+        "type": "toggle",
+        "codes": "hotel_strawberry_22"
+    },
+    {
+        "name": "Hotel Strawberry 23",
+        "type": "toggle",
+        "codes": "hotel_strawberry_23"
+    },
+    {
+        "name": "Hotel Strawberry 24",
+        "type": "toggle",
+        "codes": "hotel_strawberry_24"
+    },
+    {
+        "name": "Hotel Strawberry 25",
+        "type": "toggle",
+        "codes": "hotel_strawberry_25"
+    },
+    {
+        "name": "Ridge Strawberry 1",
+        "type": "toggle",
+        "codes": "ridge_strawberry_1"
+    },
+    {
+        "name": "Ridge Strawberry 2",
+        "type": "toggle",
+        "codes": "ridge_strawberry_2"
+    },
+    {
+        "name": "Ridge Strawberry 3",
+        "type": "toggle",
+        "codes": "ridge_strawberry_3"
+    },
+    {
+        "name": "Ridge Strawberry 4",
+        "type": "toggle",
+        "codes": "ridge_strawberry_4"
+    },
+    {
+        "name": "Ridge Strawberry 5",
+        "type": "toggle",
+        "codes": "ridge_strawberry_5"
+    },
+    {
+        "name": "Ridge Strawberry 6",
+        "type": "toggle",
+        "codes": "ridge_strawberry_6"
+    },
+    {
+        "name": "Ridge Strawberry 7",
+        "type": "toggle",
+        "codes": "ridge_strawberry_7"
+    },
+    {
+        "name": "Ridge Strawberry 8",
+        "type": "toggle",
+        "codes": "ridge_strawberry_8"
+    },
+    {
+        "name": "Ridge Strawberry 9",
+        "type": "toggle",
+        "codes": "ridge_strawberry_9"
+    },
+    {
+        "name": "Ridge Strawberry 10",
+        "type": "toggle",
+        "codes": "ridge_strawberry_10"
+    },
+    {
+        "name": "Ridge Strawberry 11",
+        "type": "toggle",
+        "codes": "ridge_strawberry_11"
+    },
+    {
+        "name": "Ridge Strawberry 12",
+        "type": "toggle",
+        "codes": "ridge_strawberry_12"
+    },
+    {
+        "name": "Ridge Strawberry 13",
+        "type": "toggle",
+        "codes": "ridge_strawberry_13"
+    },
+    {
+        "name": "Ridge Strawberry 14",
+        "type": "toggle",
+        "codes": "ridge_strawberry_14"
+    },
+    {
+        "name": "Ridge Strawberry 15",
+        "type": "toggle",
+        "codes": "ridge_strawberry_15"
+    },
+    {
+        "name": "Ridge Strawberry 16",
+        "type": "toggle",
+        "codes": "ridge_strawberry_16"
+    },
+    {
+        "name": "Ridge Strawberry 17",
+        "type": "toggle",
+        "codes": "ridge_strawberry_17"
+    },
+    {
+        "name": "Ridge Strawberry 18",
+        "type": "toggle",
+        "codes": "ridge_strawberry_18"
+    },
+    {
+        "name": "Ridge Strawberry 19",
+        "type": "toggle",
+        "codes": "ridge_strawberry_19"
+    },
+    {
+        "name": "Ridge Strawberry 20",
+        "type": "toggle",
+        "codes": "ridge_strawberry_20"
+    },
+    {
+        "name": "Ridge Strawberry 21",
+        "type": "toggle",
+        "codes": "ridge_strawberry_21"
+    },
+    {
+        "name": "Ridge Strawberry 22",
+        "type": "toggle",
+        "codes": "ridge_strawberry_22"
+    },
+    {
+        "name": "Ridge Strawberry 23",
+        "type": "toggle",
+        "codes": "ridge_strawberry_23"
+    },
+    {
+        "name": "Ridge Strawberry 24",
+        "type": "toggle",
+        "codes": "ridge_strawberry_24"
+    },
+    {
+        "name": "Ridge Strawberry 25",
+        "type": "toggle",
+        "codes": "ridge_strawberry_25"
+    },
+    {
+        "name": "Ridge Strawberry 26",
+        "type": "toggle",
+        "codes": "ridge_strawberry_26"
+    },
+    {
+        "name": "Ridge Strawberry 27",
+        "type": "toggle",
+        "codes": "ridge_strawberry_27"
+    },
+    {
+        "name": "Ridge Strawberry 28",
+        "type": "toggle",
+        "codes": "ridge_strawberry_28"
+    },
+    {
+        "name": "Ridge Strawberry 29",
+        "type": "toggle",
+        "codes": "ridge_strawberry_29"
+    },
+    {
+        "name": "Mirror Temple Strawberry 1",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_1"
+    },
+    {
+        "name": "Mirror Temple Strawberry 2",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_2"
+    },
+    {
+        "name": "Mirror Temple Strawberry 3",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_3"
+    },
+    {
+        "name": "Mirror Temple Strawberry 4",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_4"
+    },
+    {
+        "name": "Mirror Temple Strawberry 5",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_5"
+    },
+    {
+        "name": "Mirror Temple Strawberry 6",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_6"
+    },
+    {
+        "name": "Mirror Temple Strawberry 7",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_7"
+    },
+    {
+        "name": "Mirror Temple Strawberry 8",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_8"
+    },
+    {
+        "name": "Mirror Temple Strawberry 9",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_9"
+    },
+    {
+        "name": "Mirror Temple Strawberry 10",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_10"
+    },
+    {
+        "name": "Mirror Temple Strawberry 11",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_11"
+    },
+    {
+        "name": "Mirror Temple Strawberry 12",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_12"
+    },
+    {
+        "name": "Mirror Temple Strawberry 13",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_13"
+    },
+    {
+        "name": "Mirror Temple Strawberry 14",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_14"
+    },
+    {
+        "name": "Mirror Temple Strawberry 15",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_15"
+    },
+    {
+        "name": "Mirror Temple Strawberry 16",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_16"
+    },
+    {
+        "name": "Mirror Temple Strawberry 17",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_17"
+    },
+    {
+        "name": "Mirror Temple Strawberry 18",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_18"
+    },
+    {
+        "name": "Mirror Temple Strawberry 19",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_19"
+    },
+    {
+        "name": "Mirror Temple Strawberry 20",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_20"
+    },
+    {
+        "name": "Mirror Temple Strawberry 21",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_21"
+    },
+    {
+        "name": "Mirror Temple Strawberry 22",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_22"
+    },
+    {
+        "name": "Mirror Temple Strawberry 23",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_23"
+    },
+    {
+        "name": "Mirror Temple Strawberry 24",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_24"
+    },
+    {
+        "name": "Mirror Temple Strawberry 25",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_25"
+    },
+    {
+        "name": "Mirror Temple Strawberry 26",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_26"
+    },
+    {
+        "name": "Mirror Temple Strawberry 27",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_27"
+    },
+    {
+        "name": "Mirror Temple Strawberry 28",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_28"
+    },
+    {
+        "name": "Mirror Temple Strawberry 29",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_29"
+    },
+    {
+        "name": "Mirror Temple Strawberry 30",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_30"
+    },
+    {
+        "name": "Mirror Temple Strawberry 31",
+        "type": "toggle",
+        "codes": "mirror_temple_strawberry_31"
+    },
+    {
+        "name": "Summit Strawberry 1",
+        "type": "toggle",
+        "codes": "summit_strawberry_1"
+    },
+    {
+        "name": "Summit Strawberry 2",
+        "type": "toggle",
+        "codes": "summit_strawberry_2"
+    },
+    {
+        "name": "Summit Strawberry 3",
+        "type": "toggle",
+        "codes": "summit_strawberry_3"
+    },
+    {
+        "name": "Summit Strawberry 4",
+        "type": "toggle",
+        "codes": "summit_strawberry_4"
+    },
+    {
+        "name": "Summit Strawberry 5",
+        "type": "toggle",
+        "codes": "summit_strawberry_5"
+    },
+    {
+        "name": "Summit Strawberry 6",
+        "type": "toggle",
+        "codes": "summit_strawberry_6"
+    },
+    {
+        "name": "Summit Strawberry 7",
+        "type": "toggle",
+        "codes": "summit_strawberry_7"
+    },
+    {
+        "name": "Summit Strawberry 8",
+        "type": "toggle",
+        "codes": "summit_strawberry_8"
+    },
+    {
+        "name": "Summit Strawberry 9",
+        "type": "toggle",
+        "codes": "summit_strawberry_9"
+    },
+    {
+        "name": "Summit Strawberry 10",
+        "type": "toggle",
+        "codes": "summit_strawberry_10"
+    },
+    {
+        "name": "Summit Strawberry 11",
+        "type": "toggle",
+        "codes": "summit_strawberry_11"
+    },
+    {
+        "name": "Summit Strawberry 12",
+        "type": "toggle",
+        "codes": "summit_strawberry_12"
+    },
+    {
+        "name": "Summit Strawberry 13",
+        "type": "toggle",
+        "codes": "summit_strawberry_13"
+    },
+    {
+        "name": "Summit Strawberry 14",
+        "type": "toggle",
+        "codes": "summit_strawberry_14"
+    },
+    {
+        "name": "Summit Strawberry 15",
+        "type": "toggle",
+        "codes": "summit_strawberry_15"
+    },
+    {
+        "name": "Summit Strawberry 16",
+        "type": "toggle",
+        "codes": "summit_strawberry_16"
+    },
+    {
+        "name": "Summit Strawberry 17",
+        "type": "toggle",
+        "codes": "summit_strawberry_17"
+    },
+    {
+        "name": "Summit Strawberry 18",
+        "type": "toggle",
+        "codes": "summit_strawberry_18"
+    },
+    {
+        "name": "Summit Strawberry 19",
+        "type": "toggle",
+        "codes": "summit_strawberry_19"
+    },
+    {
+        "name": "Summit Strawberry 20",
+        "type": "toggle",
+        "codes": "summit_strawberry_20"
+    },
+    {
+        "name": "Summit Strawberry 21",
+        "type": "toggle",
+        "codes": "summit_strawberry_21"
+    },
+    {
+        "name": "Summit Strawberry 22",
+        "type": "toggle",
+        "codes": "summit_strawberry_22"
+    },
+    {
+        "name": "Summit Strawberry 23",
+        "type": "toggle",
+        "codes": "summit_strawberry_23"
+    },
+    {
+        "name": "Summit Strawberry 24",
+        "type": "toggle",
+        "codes": "summit_strawberry_24"
+    },
+    {
+        "name": "Summit Strawberry 25",
+        "type": "toggle",
+        "codes": "summit_strawberry_25"
+    },
+    {
+        "name": "Summit Strawberry 26",
+        "type": "toggle",
+        "codes": "summit_strawberry_26"
+    },
+    {
+        "name": "Summit Strawberry 27",
+        "type": "toggle",
+        "codes": "summit_strawberry_27"
+    },
+    {
+        "name": "Summit Strawberry 28",
+        "type": "toggle",
+        "codes": "summit_strawberry_28"
+    },
+    {
+        "name": "Summit Strawberry 29",
+        "type": "toggle",
+        "codes": "summit_strawberry_29"
+    },
+    {
+        "name": "Summit Strawberry 30",
+        "type": "toggle",
+        "codes": "summit_strawberry_30"
+    },
+    {
+        "name": "Summit Strawberry 31",
+        "type": "toggle",
+        "codes": "summit_strawberry_31"
+    },
+    {
+        "name": "Summit Strawberry 32",
+        "type": "toggle",
+        "codes": "summit_strawberry_32"
+    },
+    {
+        "name": "Summit Strawberry 33",
+        "type": "toggle",
+        "codes": "summit_strawberry_33"
+    },
+    {
+        "name": "Summit Strawberry 34",
+        "type": "toggle",
+        "codes": "summit_strawberry_34"
+    },
+    {
+        "name": "Summit Strawberry 35",
+        "type": "toggle",
+        "codes": "summit_strawberry_35"
+    },
+    {
+        "name": "Summit Strawberry 36",
+        "type": "toggle",
+        "codes": "summit_strawberry_36"
+    },
+    {
+        "name": "Summit Strawberry 37",
+        "type": "toggle",
+        "codes": "summit_strawberry_37"
+    },
+    {
+        "name": "Summit Strawberry 38",
+        "type": "toggle",
+        "codes": "summit_strawberry_38"
+    },
+    {
+        "name": "Summit Strawberry 39",
+        "type": "toggle",
+        "codes": "summit_strawberry_39"
+    },
+    {
+        "name": "Summit Strawberry 40",
+        "type": "toggle",
+        "codes": "summit_strawberry_40"
+    },
+    {
+        "name": "Summit Strawberry 41",
+        "type": "toggle",
+        "codes": "summit_strawberry_41"
+    },
+    {
+        "name": "Summit Strawberry 42",
+        "type": "toggle",
+        "codes": "summit_strawberry_42"
+    },
+    {
+        "name": "Summit Strawberry 43",
+        "type": "toggle",
+        "codes": "summit_strawberry_43"
+    },
+    {
+        "name": "Summit Strawberry 44",
+        "type": "toggle",
+        "codes": "summit_strawberry_44"
+    },
+    {
+        "name": "Summit Strawberry 45",
+        "type": "toggle",
+        "codes": "summit_strawberry_45"
+    },
+    {
+        "name": "Summit Strawberry 46",
+        "type": "toggle",
+        "codes": "summit_strawberry_46"
+    },
+    {
+        "name": "Summit Strawberry 47",
+        "type": "toggle",
+        "codes": "summit_strawberry_47"
+    },
+    {
+        "name": "Core Strawberry 1",
+        "type": "toggle",
+        "codes": "core_strawberry_1"
+    },
+    {
+        "name": "Core Strawberry 2",
+        "type": "toggle",
+        "codes": "core_strawberry_2"
+    },
+    {
+        "name": "Core Strawberry 3",
+        "type": "toggle",
+        "codes": "core_strawberry_3"
+    },
+    {
+        "name": "Core Strawberry 4",
+        "type": "toggle",
+        "codes": "core_strawberry_4"
+    },
+    {
+        "name": "Core Strawberry 5",
+        "type": "toggle",
+        "codes": "core_strawberry_5" }
+    ]
+    

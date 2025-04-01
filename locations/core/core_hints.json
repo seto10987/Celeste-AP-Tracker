@@ -1,17 +1,18 @@
 [
     {
-        "name": "Core",
+        "name": "A Core Hints",
         "chest_unopened_img": "images/items/items/berry.png",
         "chest_opened_img": "images/items/items/berry2.png",
+        "access_rules":["{}"],
         "children": [
             {
-                "name": "Core A-Side - Into the Core",
+                "name": "Core A-Side - Into the Core Hints",
                 "visibility_rules": ["$COREAVIS"],
-                "access_rules": ["$CORE"],
                 "sections": 
                 [
                     {
-                        "name": "Strawberry 1"
+                        "name": "Strawberry 1 Hint",
+                        "visibility_rules": ["core_strawberry_1"]
                     }
                 ],
                 "map_locations": 
@@ -19,24 +20,26 @@
                     {
                         "map": "celeste_chapter_select",
                         "x": 1024,
-                        "y": 173
+                        "y": 163
                     }
                 ]
             },
             {
-                "name": "Core A-Side - Hot and Cold",
+                "name": "Core A-Side - Hot and Cold Hints",
                 "visibility_rules": ["$COREAVIS"],
-                "access_rules": ["$CORE"],
                 "sections": 
                 [
                     {
-                        "name": "Strawberry 2"
+                        "name": "Strawberry 2 Hint",
+                        "visibility_rules": ["core_strawberry_2"]
                     },
                     {
-                        "name": "Strawberry 3"
+                        "name": "Strawberry 3 Hint",
+                        "visibility_rules": ["core_strawberry_3"]
                     },
                     {
-                        "name": "Strawberry 4"
+                        "name": "Strawberry 4 Hint",
+                        "visibility_rules": ["core_strawberry_4"]
                     }
                 ],
                 "map_locations": 
@@ -44,33 +47,36 @@
                     {
                         "map": "celeste_chapter_select",
                         "x": 1058,
-                        "y": 173
+                        "y": 163
                     }
                 ]
             },
             {
-                "name": "Core A-Side - Heart of the Mountain",
+                "name": "Core A-Side - Heart of the Mountain Hints",
                 "visibility_rules": ["$COREAVIS"],
-                "access_rules": ["$CORE"],
                 "sections": 
                 [
                     {
-                        "name": "Strawberry 5"
+                        "name": "Strawberry 5 Hint",
+                        "visibility_rules": ["core_strawberry_5"]
                     },
                     {
-                        "name": "Crystal Heart",
+                        "name": "Crystal Heart Hint",
                         "chest_unopened_img": "images/items/items/blue_heart.png",
-                        "chest_opened_img": "images/items/items/blue_heart2.png"
+                        "chest_opened_img": "images/items/items/blue_heart2.png",
+                        "visibility_rules": ["core_a_heart"]
                     },
                     {
-                        "name": "Cassette",
+                        "name": "Cassette Hint",
                         "chest_unopened_img": "images/items/items/cassette.png",
-                        "chest_opened_img": "images/items/items/cassette2.png"
+                        "chest_opened_img": "images/items/items/cassette2.png",
+                        "visibility_rules": ["core_cassette"]
                     },
                     {
-                        "name": "Level Complete",
+                        "name": "Level Complete Hint",
                         "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
+                        "chest_opened_img": "images/items/items/complete2.png",
+                        "visibility_rules": ["core_a_complete"]
                     }
                 ],
                 "map_locations": 
@@ -78,25 +84,26 @@
                     {
                         "map": "celeste_chapter_select",
                         "x": 1041,
-                        "y": 206
+                        "y": 216
                     }
                 ]
             },
             {
-                "name": "Core B-Side",
+                "name": "Core B-Side Hints",
                 "visibility_rules": ["$COREBVIS"],
-                "access_rules": ["$COREB"],
                 "sections": 
                 [
                     {
-                        "name": "Crystal Heart",
+                        "name": "Crystal Heart Hint",
                         "chest_unopened_img": "images/items/items/red_heart.png",
-                        "chest_opened_img": "images/items/items/red_heart2.png"
+                        "chest_opened_img": "images/items/items/red_heart2.png",
+                        "visibility_rules": ["core_b_heart"]
                     },
                     {
-                        "name": "Level Complete",
+                        "name": "Level Complete Hint",
                         "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
+                        "chest_opened_img": "images/items/items/complete2.png",
+                        "visibility_rules": ["core_b_complete"]
                     }
                 ],
                 "map_locations": 
@@ -104,25 +111,26 @@
                     {
                         "map": "celeste_chapter_select",
                         "x": 1041,
-                        "y": 279
+                        "y": 269
                     }
                 ]
             },
             {
-                "name": "Core C-Side",
+                "name": "Core C-Side Hints",
                 "visibility_rules": ["$CORECVIS"],
-                "access_rules": ["$COREC"],
                 "sections": 
                 [
                     {
-                        "name": "Crystal Heart",
+                        "name": "Crystal Heart Hint",
                         "chest_unopened_img": "images/items/items/yellow_heart.png",
-                        "chest_opened_img": "images/items/items/yellow_heart2.png"
+                        "chest_opened_img": "images/items/items/yellow_heart2.png",
+                        "visibility_rules": ["core_c_heart"]
                     },
                     {
-                        "name": "Level Complete",
+                        "name": "Level Complete Hint",
                         "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
+                        "chest_opened_img": "images/items/items/complete2.png",
+                        "visibility_rules": ["core_c_complete"]
                     }
                 ],
                 "map_locations": 
@@ -130,50 +138,40 @@
                     {
                         "map": "celeste_chapter_select",
                         "x": 1041,
-                        "y": 319
+                        "y": 329
                     }
                 ]
-            }             
-        ]
-    },
-    {
-        "name": "Core-Into the Core​",
-        "children": [
+            },
             {
                 "sections": 
                 [
                     {
-                        "name": "Strawberry 1​",
-                        "ref": "Core/Core A-Side - Into the Core/Strawberry 1"
+                        "name": "Strawberry 1 Hint​",
+                        "visibility_rules": ["core_strawberry_1"]
                     }
                 ],
                 "map_locations": 
                 [
                     {
                         "map": "core_into_the_core",
-                        "x": 999,
+                        "x": 1029,
                         "y": 1056
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Core-Hot and Cold​",
-        "children": [
+            },
             {
                 "sections": 
                 [
                     {
-                        "name": "Strawberry 2​",
-                        "ref": "Core/Core A-Side - Hot and Cold/Strawberry 2"
+                        "name": "Strawberry 2 Hint​",
+                        "visibility_rules": ["core_strawberry_2"]
                     }
                 ],
                 "map_locations": 
                 [
                     {
                         "map": "core_hot_and_cold",
-                        "x": 1167,
+                        "x": 1142,
                         "y": 48
                     }
                 ]
@@ -182,15 +180,15 @@
                 "sections": 
                 [
                     {
-                        "name": "Strawberry 3​",
-                        "ref": "Core/Core A-Side - Hot and Cold/Strawberry 3"
+                        "name": "Strawberry 3 Hint​",
+                        "visibility_rules": ["core_strawberry_3"]
                     }
                 ],
                 "map_locations": 
                 [
                     {
                         "map": "core_hot_and_cold",
-                        "x": 2368,
+                        "x": 2343,
                         "y": 208
                     }
                 ]
@@ -199,37 +197,32 @@
                 "sections": 
                 [
                     {
-                        "name": "Strawberry 4​",
-                        "ref": "Core/Core A-Side - Hot and Cold/Strawberry 4"
+                        "name": "Strawberry 4 Hint​",
+                        "visibility_rules": ["core_strawberry_4"]
                     }
                 ],
                 "map_locations": 
                 [
                     {
                         "map": "core_hot_and_cold",
-                        "x": 3271,
+                        "x": 3246,
                         "y": 104
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "name": "Core-Heart of the Mountain​",
-        "children": [
+            },
             {
                 "sections": 
                 [
                     {
-                        "name": "Strawberry 5​",
-                        "ref": "Core/Core A-Side - Heart of the Mountain/Strawberry 5"
+                        "name": "Strawberry 5 Hint​",
+                        "visibility_rules": ["core_strawberry_5"]
                     }
                 ],
                 "map_locations": 
                 [
                     {
                         "map": "core_heart_of_the_mountain",
-                        "x": 272,
+                        "x": 192,
                         "y": 1552
                     }
                 ]
@@ -238,15 +231,17 @@
                 "sections": 
                 [
                     {
-                        "name": "Crystal Heart​",
-                        "ref": "Core/Core A-Side - Heart of the Mountain/Crystal Heart"
+                        "name": "Crystal Heart Hint​",
+                        "chest_unopened_img": "images/items/items/blue_heart.png",
+                        "chest_opened_img": "images/items/items/blue_heart2.png",
+                        "visibility_rules": ["core_a_heart"]
                     }
                 ],
                 "map_locations": 
                 [
                     {
                         "map": "core_heart_of_the_mountain_2",
-                        "x": 9217,
+                        "x": 9167,
                         "y": 159
                     }
                 ]
@@ -255,15 +250,17 @@
                 "sections": 
                 [
                     {
-                        "name": "Cassette​",
-                        "ref": "Core/Core A-Side - Heart of the Mountain/Cassette"
+                        "name": "Cassette Hint​",
+                        "chest_unopened_img": "images/items/items/cassette.png",
+                        "chest_opened_img": "images/items/items/cassette2.png",
+                        "visibility_rules": ["core_cassette"]
                     }
                 ],
                 "map_locations": 
                 [
                     {
                         "map": "core_heart_of_the_mountain_2",
-                        "x": 6661,
+                        "x": 6611,
                         "y": 111
                     }
                 ]
@@ -271,14 +268,16 @@
             {
                 "sections": [
                     {
-                        "name": "Level Complete​",
-                        "ref": "Core/Core A-Side - Heart of the Mountain/Level Complete"
+                        "name": "Level Complete Hint​",
+                        "chest_unopened_img": "images/items/items/complete.png",
+                        "chest_opened_img": "images/items/items/complete2.png",
+                        "visibility_rules": ["core_a_complete"]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "core_heart_of_the_mountain_2",
-                        "x": 9017,
+                        "x": 8967,
                         "y": 159
                     }
                 ]

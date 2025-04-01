@@ -36,7 +36,7 @@ function C7()
     return
     has ("hearta7") and has ("heartb7")
 end
-function C8()
+function C9()
     return
     has ("hearta8") and has ("heartb8")
 end
@@ -66,64 +66,88 @@ function A7()
 end
 function A8()
     return
+    has ("compa7") or has ("compb7") or has ("compc7")
+end
+function A9()
+    return
     has ("compep")
 end
 function A10()
     return
     has ("compa8") or has ("compb8") or has ("compc8")
 end
+
 function SUMMIT()
-    return
-    has ("core") or has ("farewell")
+    return A7() and ((GOAL() and has("summit")) or SUMMITBVIS())
 end
+
+function EPILOGUE()
+    return A7() 
+end
+
+function SUMMITB()
+    return has("cassette7") and ((has("summit_b") and GOAL()) or SUMMITCVIS())
+end
+
+function SUMMITC()
+    return C7() and ((has("summit_c") and GOAL()) or COREAVIS())
+end
+
 function CORE()
-    return
-    has ("summit") or has ("farewell")
+    return A9() and ((has("core") and GOAL()) or COREBVIS()) and ((COREAGATE() and has("gates_vanilla")) or has("gates_disabled"))
 end
+
+function COREB()
+    return
+    has ("cassette8") and ((has("core_b") and GOAL()) or CORECVIS()) and ((COREBGATE() and has("gates_vanilla")) or has("gates_disabled"))
+end
+
+function COREC()
+    return
+    C9() and ((has("core_c") and GOAL()) or has("farewell")) and ((CORECGATE() and has("gates_vanilla")) or has("gates_disabled"))
+end
+
 function FAREWELL()
-    return
-    has ("summit") or has ("core")
+    return A10() and GOAL() and ((FAREWELLGATE() and has("gates_vanilla")) or has("gates_disabled"))
 end
 
-function checkRequirements(reference, check_count)
-    local reqCount = Tracker:ProviderCountForCode(reference)
-    local count = Tracker:ProviderCountForCode(check_count)
-
-    if count >= reqCount then
-        return 1
-    else
-        return 0
-    end
+function SUMMITBVIS()
+    return has("summit_b") or has("summit_c") or has("core") or has("core_b") or has("core_c") or has("farewell")
 end
+
+function SUMMITCVIS()
+    return has("summit_c") or has("core") or has("core_b") or has("core_c") or has("farewell")
+end
+
+function  COREAVIS()
+    return has("core") or has("core_b") or has("core_c") or has("farewell")
+end
+
+function  COREBVIS()
+    return has("core_b") or has("core_c") or has("farewell")
+end
+
+function  CORECVIS()
+    return has("core_c") or has("farewell")
+end
+
 function BERRYREQ()
     return checkRequirements("berriesrequired", "berrytotal")
 end
+
 function HEARTREQ()
     return checkRequirements("heartsrequired", "hearttotal")
 end
+
 function CASSETTESREQ()
     return checkRequirements("cassettesrequired", "cassettestotal")
 end
+
 function COMPREQ()
     return checkRequirements("comprequired", "comptotal")
 end
+
 function GOAL()
     return
     has ("$BERRYREQ") and has ("$HEARTREQ") and has ("$COMPREQ") and has ("$CASSETTESREQ")
-end
-function has(item, amount)
-    local count = Tracker:ProviderCountForCode(item)
-    if not amount then
-        return count > 0
-    else
-        amount = tonumber(amount)
-        return count >= amount
-    end
-end
-function HEART(hearttotal, count)
-    if Tracker:FindObjectForCode(hearttotal).AcquiredCount >= tonumber(count) then
-        return true
-    else
-        return false
-    end
 end

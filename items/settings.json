@@ -116,6 +116,64 @@
                 "img": "images/items/items/farewell.png",
                 "codes": "farewell",
                 "inherit_codes": false
+            },
+            {
+                "img": "images/items/items/summit_b.png",
+                "codes": "summit_b",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/items/core_b.png",
+                "codes": "core_b",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/items/summit_c.png",
+                "codes": "summit_c",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/items/core_c.png",
+                "codes": "core_c",
+                "inherit_codes": false
+            }
+            
+        ]
+    },
+    {
+        "name": "Heart Gates",
+        "codes": "gates",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled":false,
+        "stages": [
+            {
+                "img": "images/items/items/complete.png",
+                "codes": "gates_vanilla",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/items/disabled.png",
+                "codes": "gates_disabled",
+                "inherit_codes": false
+            }
+            
+        ]
+    },
+    {
+        "name": "Heart Gates Hidden",
+        "codes": "gateshidden",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled":false,
+        "stages": [
+            {
+                "codes": "gates_disabled_hidden",
+                "inherit_codes": false
+            },
+            {
+                "codes": "gates_vanilla_hidden",
+                "inherit_codes": false
             }
             
         ]
@@ -126,6 +184,13 @@
         "img": "",
         "disabled_img": "",
         "codes": "cur_level_id"
+	},
+	{
+        "name": "Test",
+        "type": "toggle",
+        "img": "images/items/items/complete.png",
+        "disabled_img": "",
+        "codes": "test"
 	},
 	{
 	  "name": "Auto-Tab",
