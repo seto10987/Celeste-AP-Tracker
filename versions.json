@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "3.0.0",
+			"download_url": "https://github.com/seto10987/Celeste-AP-Tracker/archive/refs/tags/v.3.0.0.zip",
+			"sha256": "e64e85eb707ea99d53a15d353ac5e505770dd0413728bab7d116b70392e1ecc3",
+			"changelog": ["Hints Tracking, Goal Additions, and Heart Gates"]
+		},
+		{
 			"package_version": "2.4.0",
 			"download_url": "https://github.com/seto10987/Celeste-AP-Tracker/archive/refs/tags/v2.4.0.zip",
 			"sha256": "68e145afe0cf4dd671d80b4c5b7e2be872e0ba33d7a4b33b337f6b3bca2dafac",
